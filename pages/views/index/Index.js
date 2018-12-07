@@ -30,10 +30,10 @@ export class IndexCom extends React.Component {
             >
                 <Text
                     style={{
-                        color: "yellow"
+                        color: "#333"
                     }}
                 >
-                    这是首页
+                    这是首页123
                 </Text>
 
                 {/* 引入tabbar组件,把导航事件传递给子组件 */}

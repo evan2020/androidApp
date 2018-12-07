@@ -6,8 +6,8 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1544020005795"
-    token="-4912484911907930188"
+    timestamp="1544184154537"
+    token="8424884221187391885"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -24,87 +24,87 @@
         duration="0" />
 
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="E:\react_native\AwesomeProject\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        location="E:\github\androidApp\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1544020005795"
+        timestamp="1544184154537"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\react_native\AwesomeProject\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="E:\github\androidApp\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
