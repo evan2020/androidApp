@@ -35,10 +35,10 @@ let globalData = {
 export class EditBanner extends React.Component {
     // 设置标题栏
     static navigationOptions = {
-        title: "添加banner",
+        title: "编辑倒计时卡片",
         headerStyle: {
-            backgroundColor: "#eee",
-            display: "none"
+            backgroundColor: "#eee"
+            // display: "none"
         },
         headerTintColor: "#999",
         headerTitleStyle: {
@@ -133,7 +133,7 @@ export class EditBanner extends React.Component {
                     style={{
                         marginTop: 30,
                         width: "100%",
-                        height: 30,
+                        height: 30
                         // backgroundColor: `red`
                     }}
                 >
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
         // color: "#5ED4FF"
     },
     delete: {
-        marginTop: 10,
+        marginTop: 10
         // color: "#FF7286",
         // backgroundColor: "red"
     }

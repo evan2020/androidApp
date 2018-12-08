@@ -159,10 +159,16 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
     navigation: {
-        width: "100%",
+        width: "95%",
         display: "flex",
         flexDirection: "column",
         marginTop: 50,
+        paddingLeft: 5,
+        paddingRight: 5,
+        borderLeftWidth: 1,
+        borderLeftColor: "#eee",
+        borderRightWidth: 1,
+        borderRightColor: "#eee",
         borderBottomWidth: 1,
         borderBottomColor: "#eee"
     },

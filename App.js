@@ -30,7 +30,7 @@ const AppNavigator = createStackNavigator(
         EditBanner: EditBanner
     },
     {
-        initialRouteName: "IndexCom" // 默认初始页为home组件
+        initialRouteName: "MineCom" // 默认初始页为home组件
     }
 );
 

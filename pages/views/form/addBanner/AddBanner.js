@@ -34,10 +34,10 @@ let globalData = {
 export class AddBanner extends React.Component {
     // 设置标题栏
     static navigationOptions = {
-        title: "添加banner",
+        title: "添加倒计时卡片",
         headerStyle: {
             backgroundColor: "#eee",
-            display: "none"
+            // display: "none"
         },
         headerTintColor: "#999",
         headerTitleStyle: {

@@ -36,7 +36,7 @@ export class BannerCom extends React.Component {
     }
     // 设置标题栏
     static navigationOptions = {
-        title: "轮播图",
+        title: "倒计时卡片",
         headerStyle: {
             backgroundColor: "#eee"
             // display: "none"

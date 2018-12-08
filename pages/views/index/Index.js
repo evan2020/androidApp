@@ -218,7 +218,8 @@ const styles = StyleSheet.create({
         width: 50,
         height: 50,
         position: "relative",
-        top: -25
+        top: -25,
+        backgroundColor:"#fff"
     },
     listOne: {
         width: "100%",
