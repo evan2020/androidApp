@@ -102,7 +102,7 @@ class ListOne extends React.Component {
     }
     showBanner() {
         // 导航到轮播图页面
-        navigation.push("BannerCom");
+        navigation.navigate("BannerCom");
     }
     render() {
         return (

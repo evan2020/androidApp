@@ -25,7 +25,7 @@ const AppNavigator = createStackNavigator(
         BannerCom: BannerCom
     },
     {
-        initialRouteName: "BannerCom" // 默认初始页为home组件
+        initialRouteName: "IndexCom" // 默认初始页为home组件
     }
 );
 
