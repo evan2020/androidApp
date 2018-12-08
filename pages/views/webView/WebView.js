@@ -8,11 +8,12 @@ import {
     View,
     Button,
     Image,
-    FlatList
+    FlatList,
+    WebView
 } from "react-native";
 
 // 我的页面主体
-export class WebView extends React.Component {
+export class WebViewCom extends React.Component {
     // 设置标题栏
     static navigationOptions = {
         title: "webView",
@@ -26,7 +27,11 @@ export class WebView extends React.Component {
         }
     };
     render() {
-        return <View style={styles.WebView} />;
+        return (
+            <View style={styles.WebView}>
+                <Text>webView</Text>
+            </View>
+        );
     }
 }
 

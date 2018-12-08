@@ -12,8 +12,10 @@ import { MineCom } from "./pages/views/mine/Mine";
 import { BannerCom } from "./pages/views/banner/Banner";
 // 引入添加轮播图组件
 import { AddBanner } from "./pages/views/form/addBanner/AddBanner";
+// 引入编辑轮播图页面
 import { EditBanner } from "./pages/views/form/editBanner/EditBanner";
-
+// 引入webview页面
+import { WebViewCom } from "./pages/views/webView/WebView";
 // 平台类型
 const instructions = Platform.select({
     ios: `这是IOS >>>>>>>>>>`,
@@ -27,10 +29,11 @@ const AppNavigator = createStackNavigator(
         MineCom: MineCom,
         BannerCom: BannerCom,
         AddBanner: AddBanner,
-        EditBanner: EditBanner
+        EditBanner: EditBanner,
+        WebViewCom: WebViewCom
     },
     {
-        initialRouteName: "MineCom" // 默认初始页为home组件
+        initialRouteName: "WebViewCom" // 默认初始页为home组件
     }
 );
 

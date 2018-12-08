@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Dec 08 21:25:57 CST 2018
+#Sun Dec 09 06:47:57 CST 2018
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libprivatedata.so
 25.base=E\:\\github\\androidApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

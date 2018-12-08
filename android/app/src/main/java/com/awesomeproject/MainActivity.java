@@ -6,7 +6,7 @@ import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
-import com.theweflex.react.WeChatPackage;
+// import com.theweflex.react.WeChatPackage;
 
 public class MainActivity extends ReactActivity {
 
@@ -20,11 +20,11 @@ public class MainActivity extends ReactActivity {
     }
 
     // 微信登录
-    @Override
-    protected List<ReactPackage> getPackages() {
-        return Arrays.<ReactPackage>asList(new MainReactPackage(), new WeChatPackage() // Add this line
-        );
-    }
+    // @Override
+    // protected List<ReactPackage> getPackages() {
+    //     return Arrays.<ReactPackage>asList(new MainReactPackage(), new WeChatPackage() // Add this line
+    //     );
+    // }
 
     @Override
     protected ReactActivityDelegate createReactActivityDelegate() {
