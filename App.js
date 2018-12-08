@@ -10,6 +10,9 @@ import { IndexCom } from "./pages/views/index/Index";
 import { MineCom } from "./pages/views/mine/Mine";
 // 引入banner展示倒计时组件
 import { BannerCom } from "./pages/views/banner/Banner";
+// 引入添加轮播图组件
+import { AddBanner } from "./pages/views/form/addBanner/AddBanner";
+import { EditBanner } from "./pages/views/form/editBanner/EditBanner";
 
 // 平台类型
 const instructions = Platform.select({
@@ -22,7 +25,9 @@ const AppNavigator = createStackNavigator(
     {
         IndexCom: IndexCom,
         MineCom: MineCom,
-        BannerCom: BannerCom
+        BannerCom: BannerCom,
+        AddBanner: AddBanner,
+        EditBanner: EditBanner
     },
     {
         initialRouteName: "IndexCom" // 默认初始页为home组件

@@ -67,14 +67,22 @@ export class IndexCom extends React.Component {
 
     componentWillUnmount() {}
 
+    linkToAdd() {
+        Alert.alert("add");
+        // 导航到添加轮播图页面
+        navigation.navigate("AddBanner");
+    }
+
     render() {
         return (
             <View style={styles.indexCom}>
                 <View style={styles.content}>
-                    <Image
-                        style={styles.logo}
-                        source={require("../../static/images/mine/clock2.png")}
-                    />
+                    <TouchableOpacity onPress={this.linkToAdd}>
+                        <Image
+                            style={styles.logo}
+                            source={require("../../static/images/mine/clock2.png")}
+                        />
+                    </TouchableOpacity>
                     <FlatList
                         data={this.state.listData}
                         // 设置key值

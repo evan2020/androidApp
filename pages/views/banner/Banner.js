@@ -17,8 +17,17 @@ import Swiper from "react-native-swiper";
 
 // import SwiperCom from "./index";
 
+// 当前页面全局变量(为了设置导航)
+let navigation = null;
+
 // 设置底部tabBar组件
 export class BannerCom extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+        // 获取导航
+        navigation = this.props.navigation;
+    }
     // 设置标题栏
     static navigationOptions = {
         title: "轮播图",
@@ -75,6 +84,8 @@ class SwiperCom extends React.Component {
 class SwiperOne extends React.Component {
     linkToEdit() {
         Alert.alert("linkToEdit");
+        // 导航到添加轮播图页面
+        navigation.navigate("EditBanner");
     }
     render() {
         return (
