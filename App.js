@@ -33,7 +33,7 @@ const AppNavigator = createStackNavigator(
         WebViewCom: WebViewCom
     },
     {
-        initialRouteName: "WebViewCom" // 默认初始页为home组件
+        initialRouteName: "MineCom" // 默认初始页为home组件
     }
 );
 

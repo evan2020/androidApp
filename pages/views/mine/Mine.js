@@ -8,10 +8,15 @@ import {
     View,
     Button,
     Image,
-    FlatList
+    FlatList,
+    Alert,
+    TouchableOpacity
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
+
+// 当前页面全局变量(为了设置导航)
+let navigation = null;
 
 // 我的页面主体
 export class MineCom extends React.Component {
@@ -27,6 +32,12 @@ export class MineCom extends React.Component {
             fontWeight: "bold"
         }
     };
+    constructor(props) {
+        super(props);
+        this.state = {};
+        // 获取导航
+        navigation = this.props.navigation;
+    }
     render() {
         return (
             <View style={styles.mineCom}>
@@ -72,12 +83,14 @@ class Navigation extends React.Component {
                 {
                     leftIconUrl: require("../../static/images/mine/mine.png"),
                     centerTitle: `关于我们`,
-                    arrowRight: require("../../static/images/mine/right.png")
+                    arrowRight: require("../../static/images/mine/right.png"),
+                    webSiteUrl: `https://shalou.smallzhiyun.com/timer/aboutUs.html`
                 },
                 {
                     leftIconUrl: require("../../static/images/mine/help.png"),
                     centerTitle: `帮助中心`,
-                    arrowRight: require("../../static/images/mine/right.png")
+                    arrowRight: require("../../static/images/mine/right.png"),
+                    webSiteUrl: `https://shalou.smallzhiyun.com/timer/helpCenter.html`
                 },
                 {
                     leftIconUrl: require("../../static/images/mine/contat.png"),
@@ -110,26 +123,41 @@ class Navigation extends React.Component {
 class NavOne extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        // this.state = {};
+    }
+    linkToWeb(item) {
+        console.log(item);
+        // 跳转到webWiew页面
+        navigation.navigate("WebViewCom", {
+            webSiteUrl: item.webSiteUrl,
+            title: item.centerTitle
+        });
+        // Alert.alert("test");
     }
     render() {
         return (
-            <View style={styles.navigationOne}>
-                {/* 左侧图标 */}
-                <Image
-                    style={styles.leftIcon}
-                    source={this.props.navOneData.leftIconUrl}
-                />
-                {/* 中间标题 */}
-                <Text style={styles.centerTitle}>
-                    {this.props.navOneData.centerTitle}
-                </Text>
-                {/* 右侧箭头 */}
-                <Image
-                    style={styles.arrowRight}
-                    source={this.props.navOneData.arrowRight}
-                />
-            </View>
+            <TouchableOpacity
+                onPress={() => {
+                    this.linkToWeb(this.props.navOneData);
+                }}
+            >
+                <View style={styles.navigationOne}>
+                    {/* 左侧图标 */}
+                    <Image
+                        style={styles.leftIcon}
+                        source={this.props.navOneData.leftIconUrl}
+                    />
+                    {/* 中间标题 */}
+                    <Text style={styles.centerTitle}>
+                        {this.props.navOneData.centerTitle}
+                    </Text>
+                    {/* 右侧箭头 */}
+                    <Image
+                        style={styles.arrowRight}
+                        source={this.props.navOneData.arrowRight}
+                    />
+                </View>
+            </TouchableOpacity>
         );
     }
 }
