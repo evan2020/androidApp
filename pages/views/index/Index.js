@@ -11,7 +11,8 @@ import {
     FlatList,
     SectionList,
     TouchableOpacity,
-    Alert
+    Alert,
+    DeviceEventEmitter
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
@@ -66,9 +67,15 @@ export class IndexCom extends React.Component {
         let that = this;
         console.log(`开始挂载首页`);
         that.getAllCard();
+        DeviceEventEmitter.addListener("IndexCom", a => {
+            // 当编辑页面离开时,回到首页重新刷新数据
+            that.getAllCard();
+        });
     }
 
-    componentWillUnmount() {}
+    componentWillUnmount() {
+        console.log(`首页离开时 >>>>>>>>>>>>>`);
+    }
 
     // 获取当前用户所有的卡片
     getAllCard() {
@@ -111,7 +118,7 @@ export class IndexCom extends React.Component {
     }
 
     linkToAdd() {
-        Alert.alert("add");
+        // Alert.alert("add");
         // 导航到添加轮播图页面
         navigation.navigate("AddBanner");
     }
@@ -151,13 +158,20 @@ class ListOne extends React.Component {
         super(props);
         this.state = {};
     }
-    showBanner() {
+    showBanner(item) {
+        console.log(`bannerData >>>>>>>`, item);
         // 导航到轮播图页面
-        navigation.navigate("BannerCom");
+        navigation.navigate("BannerCom",{
+            id:item.id
+        });
     }
     render() {
         return (
-            <TouchableOpacity onPress={this.showBanner}>
+            <TouchableOpacity
+                onPress={() => {
+                    this.showBanner(this.props.listOneData);
+                }}
+            >
                 <View style={styles.listOne}>
                     <View style={styles.listOneLef}>
                         <Text style={styles.listOneLeftText}>

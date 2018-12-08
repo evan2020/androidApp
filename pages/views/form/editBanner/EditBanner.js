@@ -13,11 +13,23 @@ import {
     TouchableOpacity,
     Alert,
     TextInput,
-    DatePickerAndroid
+    DatePickerAndroid,
+    DeviceEventEmitter
 } from "react-native";
+
+import { http } from "../../../http/index";
+import * as API from "../../../http/api";
+import * as Timer from "../../../utils/timer";
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
+
+// 全局变量
+let globalData = {
+    itemName: ``,
+    targetDate: `2019-01-01`,
+    id: 0
+};
 
 // 设置首页组件
 export class EditBanner extends React.Component {
@@ -42,14 +54,59 @@ export class EditBanner extends React.Component {
         navigation = this.props.navigation;
     }
 
-    componentDidMount() {}
+    componentDidMount() {
+        console.log(`编辑页面挂载时 >>>>>>>>>`);
+        globalData.id = navigation.getParam("id", 0);
+    }
 
-    componentWillUnmount() {}
+    componentWillUnmount() {
+        console.log(`编辑页面离开时 >>>>>>>>>>>>>>>>>`);
+        DeviceEventEmitter.emit("IndexCom", "发送了个通知");
+    }
 
-    save() {
-        Alert.alert("edit");
-        // 导航到首页页面
-        navigation.navigate("IndexCom");
+    // 保存卡片
+    saveCard() {
+        let that = this;
+        console.log(`globalData >>>>>>`, globalData);
+        http({
+            method: "get",
+            url: API.editCard,
+            params: {
+                id: globalData.id,
+                itemName: globalData.itemName,
+                targetDate: globalData.targetDate
+            },
+            customErr: true
+        }).then(res => {
+            console.log(`请求结果 >>>>>>>>>>>>>`, res);
+            if (res.code === 0) {
+                // 导航到首页页面
+                navigation.navigate("IndexCom");
+            } else {
+                Alert.alert(res.mag);
+            }
+        });
+    }
+
+    deleteCard() {
+        let that = this;
+        console.log(`globalData >>>>>>`, globalData);
+        http({
+            method: "get",
+            url: API.delCard,
+            params: {
+                cardId: globalData.id
+            },
+            customErr: true
+        }).then(res => {
+            console.log(`请求结果 >>>>>>>>>>>>>`, res);
+            if (res.code === 0) {
+                // 导航到首页页面
+                navigation.navigate("IndexCom");
+            } else {
+                Alert.alert(res.mag);
+            }
+        });
     }
 
     render() {
@@ -65,10 +122,27 @@ export class EditBanner extends React.Component {
                     }}
                 >
                     <Button
-                        onPress={this.save}
+                        onPress={this.saveCard}
                         title="编辑"
+                        color="#5ED4FF"
                         accessibilityLabel="Learn more about this purple button"
                         style={styles.save}
+                    />
+                </View>
+                <View
+                    style={{
+                        marginTop: 30,
+                        width: "100%",
+                        height: 30,
+                        // backgroundColor: `red`
+                    }}
+                >
+                    <Button
+                        onPress={this.deleteCard}
+                        title="删除"
+                        color="#FF7286"
+                        accessibilityLabel="Learn more about this purple button"
+                        style={styles.delete}
                     />
                 </View>
             </View>
@@ -79,7 +153,25 @@ export class EditBanner extends React.Component {
 class InputItemName extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            itemName: ``
+        };
+    }
+    componentDidMount() {
+        console.log(`初始化输入框 >>>>>>>>>>>>>>>`);
+        globalData.itemName = navigation.getParam("itemName", "");
+
+        console.log(`获取到的itemName >>>>>>>>>`, globalData.itemName);
+        this.setState({
+            itemName: globalData.itemName
+        });
+    }
+    changeText(text) {
+        console.log(text);
+        this.setState({
+            itemName: text
+        });
+        globalData.itemName = text;
     }
     render() {
         return (
@@ -89,7 +181,13 @@ class InputItemName extends React.Component {
                     style={styles.leftIcon}
                     source={require("../../../static/images/mine/mine.png")}
                 />
-                <TextInput style={styles.centerTitle} />
+                <TextInput
+                    style={styles.centerTitle}
+                    value={this.state.itemName}
+                    onChangeText={text => {
+                        this.changeText(text);
+                    }}
+                />
             </View>
         );
     }
@@ -106,6 +204,13 @@ class TargetDate extends React.Component {
             targetDate: `请选择日期`
         };
     }
+
+    componentDidMount() {
+        globalData.targetDate = navigation.getParam("targetDate", "请输入日期");
+        this.setState({
+            targetDate: globalData.targetDate
+        });
+    }
     openDate() {
         let that = this;
         try {
@@ -119,15 +224,13 @@ class TargetDate extends React.Component {
                     this.setState({
                         targetDate: year + "-" + (month + 1) + "-" + day
                     });
+                    globalData.targetDate =
+                        year + "-" + (month + 1) + "-" + day;
                 }
             });
         } catch ({ code, message }) {
             console.warn("Cannot open date picker", message);
         }
-    }
-
-    componentDidMount() {
-        // this.changeVal()
     }
 
     render() {
@@ -195,6 +298,11 @@ const styles = StyleSheet.create({
         height: 30
     },
     save: {
-        color: "#5ED4FF"
+        // color: "#5ED4FF"
+    },
+    delete: {
+        marginTop: 10,
+        // color: "#FF7286",
+        // backgroundColor: "red"
     }
 });

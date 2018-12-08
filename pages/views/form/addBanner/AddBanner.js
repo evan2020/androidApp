@@ -13,11 +13,22 @@ import {
     TouchableOpacity,
     Alert,
     TextInput,
-    DatePickerAndroid
+    DatePickerAndroid,
+    DeviceEventEmitter
 } from "react-native";
+
+import { http } from "../../../http/index";
+import * as API from "../../../http/api";
+import * as Timer from "../../../utils/timer";
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
+
+// 全局变量
+let globalData = {
+    itemName: `testGlobal`,
+    targetDate: `2019-01-01`
+};
 
 // 设置首页组件
 export class AddBanner extends React.Component {
@@ -44,12 +55,32 @@ export class AddBanner extends React.Component {
 
     componentDidMount() {}
 
-    componentWillUnmount() {}
+    componentWillUnmount() {
+        console.log(`添加页面离开时 >>>>>>>>>>>>>>>>>`);
+        DeviceEventEmitter.emit("IndexCom", "发送了个通知");
+    }
 
-    save() {
-        Alert.alert("add");
-        // 导航到首页页面
-        navigation.navigate("IndexCom");
+    // 保存卡片
+    saveCard() {
+        let that = this;
+        http({
+            method: "get",
+            url: API.addCard,
+            params: {
+                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`,
+                itemName: globalData.itemName,
+                targetDate: globalData.targetDate
+            },
+            customErr: true
+        }).then(res => {
+            console.log(`请求结果 >>>>>>>>>>>>>`, res);
+            if (res.code === 0) {
+                // 导航到首页页面
+                navigation.navigate("IndexCom");
+            } else {
+                Alert.alert(res.mag);
+            }
+        });
     }
 
     render() {
@@ -65,7 +96,7 @@ export class AddBanner extends React.Component {
                     }}
                 >
                     <Button
-                        onPress={this.save}
+                        onPress={this.saveCard}
                         title="保存"
                         accessibilityLabel="Learn more about this purple button"
                         style={styles.save}
@@ -81,6 +112,10 @@ class InputItemName extends React.Component {
         super(props);
         this.state = {};
     }
+    changeText(text) {
+        console.log(text);
+        globalData.itemName = text;
+    }
     render() {
         return (
             <View style={styles.navigationOne}>
@@ -89,7 +124,12 @@ class InputItemName extends React.Component {
                     style={styles.leftIcon}
                     source={require("../../../static/images/mine/mine.png")}
                 />
-                <TextInput style={styles.centerTitle} />
+                <TextInput
+                    style={styles.centerTitle}
+                    onChangeText={text => {
+                        this.changeText(text);
+                    }}
+                />
             </View>
         );
     }
@@ -119,6 +159,8 @@ class TargetDate extends React.Component {
                     this.setState({
                         targetDate: year + "-" + (month + 1) + "-" + day
                     });
+                    globalData.targetDate =
+                        year + "-" + (month + 1) + "-" + day;
                 }
             });
         } catch ({ code, message }) {

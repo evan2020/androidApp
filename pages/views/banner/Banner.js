@@ -22,7 +22,10 @@ import * as Timer from "../../utils/timer";
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
-
+let globalData = {
+    id: 0,
+    index: 0
+};
 // 设置底部tabBar组件
 export class BannerCom extends React.Component {
     constructor(props) {
@@ -43,6 +46,9 @@ export class BannerCom extends React.Component {
             fontWeight: "bold"
         }
     };
+    componentDidMount() {}
+
+    componentWillUnmount() {}
     render() {
         return (
             // tabbar组件
@@ -76,6 +82,7 @@ class SwiperCom extends React.Component {
     componentDidMount() {
         let that = this;
         console.log(`开始挂载轮播图`);
+        globalData.id = navigation.getParam("id", 0);
         that.getAllCard();
     }
 
@@ -123,17 +130,16 @@ class SwiperCom extends React.Component {
             });
             arrTime.sort(Timer.sortBy("timeStamp"));
             let stop = false;
-            // arrTime.map((item, index) => {
-            //     if (!stop) {
-            //         console.log(`item >>>>>>>>>>>>>`, item, index);
-            //         if (item.id === parseInt(that.cardId)) {
-            //             console.log(`cardId >>>>>>>>>>`, that.cardId);
-            //             that.swiperData.current = index;
-            //             that.isShowCard = true;
-            //             stop = true;
-            //         }
-            //     }
-            // });
+            arrTime.map((item, index) => {
+                if (!stop) {
+                    console.log(`item >>>>>>>>>>>>>`, item, index);
+                    if (item.id === parseInt(globalData.id)) {
+                        console.log(`cardId >>>>>>>>>>`, globalData.id);
+                        globalData.index = index;
+                        stop = true;
+                    }
+                }
+            });
             that.setState({
                 bannerList: arrTime
             });
@@ -143,7 +149,7 @@ class SwiperCom extends React.Component {
     }
     render() {
         return (
-            <Swiper style={styles.wrapper}>
+            <Swiper style={styles.wrapper} index={globalData.index}>
                 {this.state.bannerList.map((item, index) => {
                     return <SwiperOne swiperOneData={item} key={index} />;
                 })}
@@ -154,10 +160,15 @@ class SwiperCom extends React.Component {
 
 // 单个swiper
 class SwiperOne extends React.Component {
-    linkToEdit() {
-        Alert.alert("linkToEdit");
+    linkToEdit(item) {
+        // Alert.alert("linkToEdit");
+        console.log(`swiperOneData >>>>>>>>>`, item);
         // 导航到添加轮播图页面
-        navigation.navigate("EditBanner");
+        navigation.navigate("EditBanner", {
+            itemName: item.itemName,
+            targetDate: item.targetDate,
+            id: item.id
+        });
     }
     render() {
         return (
@@ -172,7 +183,9 @@ class SwiperOne extends React.Component {
                     <View style={styles.listOneCenter}>
                         <Text
                             style={styles.listOneCenterText}
-                            onPress={this.linkToEdit}
+                            onPress={() => {
+                                this.linkToEdit(this.props.swiperOneData);
+                            }}
                         >
                             {this.props.swiperOneData.IntervalTime}
                         </Text>
