@@ -8,6 +8,8 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import { IndexCom } from "./pages/views/index/Index";
 // 引入我的组件
 import { MineCom } from "./pages/views/mine/Mine";
+// 引入banner展示倒计时组件
+import { BannerCom } from "./pages/views/banner/Banner";
 
 // 平台类型
 const instructions = Platform.select({
@@ -19,10 +21,11 @@ const instructions = Platform.select({
 const AppNavigator = createStackNavigator(
     {
         IndexCom: IndexCom,
-        MineCom: MineCom
+        MineCom: MineCom,
+        BannerCom: BannerCom
     },
     {
-        initialRouteName: "MineCom" // 默认初始页为home组件
+        initialRouteName: "BannerCom" // 默认初始页为home组件
     }
 );
 

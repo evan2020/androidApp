@@ -32,6 +32,7 @@ export class MineCom extends React.Component {
             <View style={styles.mineCom}>
                 {/* 头像和姓名区域 */}
                 <AvatarCom />
+                {/* 导航区域 */}
                 <Navigation />
                 {/* 引入tabbar组件,把导航事件传递给子组件 */}
                 <TabBarCom navigate={this.props.navigation.navigate} />
@@ -96,6 +97,7 @@ class Navigation extends React.Component {
             <View style={styles.navigation}>
                 <FlatList
                     data={this.state.navList}
+                    // 设置key值
                     keyExtractor={item => item.centerTitle}
                     renderItem={({ item }) => <NavOne navOneData={item} />}
                 />
@@ -104,6 +106,7 @@ class Navigation extends React.Component {
     }
 }
 
+// 单个导航组件
 class NavOne extends React.Component {
     constructor(props) {
         super(props);
@@ -117,6 +120,7 @@ class NavOne extends React.Component {
                     style={styles.leftIcon}
                     source={this.props.navOneData.leftIconUrl}
                 />
+                {/* 中间标题 */}
                 <Text style={styles.centerTitle}>
                     {this.props.navOneData.centerTitle}
                 </Text>
