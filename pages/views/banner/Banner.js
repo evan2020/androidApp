@@ -14,6 +14,9 @@ import {
     FlatList
 } from "react-native";
 import Swiper from "react-native-swiper";
+import { http } from "../../http/index";
+import * as API from "../../http/api";
+import * as Timer from "../../utils/timer";
 
 // import SwiperCom from "./index";
 
@@ -69,6 +72,75 @@ class SwiperCom extends React.Component {
             ]
         };
     }
+
+    componentDidMount() {
+        let that = this;
+        console.log(`开始挂载轮播图`);
+        that.getAllCard();
+    }
+
+    componentWillUnmount() {}
+    // 获取当前用户所有的卡片
+    getAllCard() {
+        let that = this;
+        http({
+            method: "get",
+            url: API.findAllCard,
+            params: {
+                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`
+            },
+            customErr: true
+        }).then(res => {
+            console.log(`请求结果 >>>>>>>>>>>>>`, res);
+            let arrTime = res.data.map((item, index) => {
+                let itemOne = { ...item };
+                let date = new Date(item.targetDate);
+                let week = date.getDay();
+                let nowDate = new Date();
+                let nowDay = nowDate.getDay();
+                let nowTimeStamp = nowDate.getTime();
+                let arrWeek = new Array(
+                    "日",
+                    "一",
+                    "二",
+                    "三",
+                    "四",
+                    "五",
+                    "六"
+                );
+                let strWeek = `星期${arrWeek[week]}`;
+                console.log(`weeek >>>>>>>>>>>`, strWeek);
+                let timeStamp = date.getTime();
+                let IntervalTime = Timer.timeStamp(item.targetDate);
+                if (week !== nowDay && nowTimeStamp < timeStamp) {
+                    IntervalTime += 1;
+                }
+                console.log(timeStamp);
+                itemOne.timeStamp = timeStamp;
+                itemOne.IntervalTime = IntervalTime;
+                itemOne.strWeek = strWeek;
+                return itemOne;
+            });
+            arrTime.sort(Timer.sortBy("timeStamp"));
+            let stop = false;
+            // arrTime.map((item, index) => {
+            //     if (!stop) {
+            //         console.log(`item >>>>>>>>>>>>>`, item, index);
+            //         if (item.id === parseInt(that.cardId)) {
+            //             console.log(`cardId >>>>>>>>>>`, that.cardId);
+            //             that.swiperData.current = index;
+            //             that.isShowCard = true;
+            //             stop = true;
+            //         }
+            //     }
+            // });
+            that.setState({
+                bannerList: arrTime
+            });
+            console.log("success信息:", res);
+            console.log("数组排序:", arrTime);
+        });
+    }
     render() {
         return (
             <Swiper style={styles.wrapper}>
@@ -102,14 +174,14 @@ class SwiperOne extends React.Component {
                             style={styles.listOneCenterText}
                             onPress={this.linkToEdit}
                         >
-                            24
+                            {this.props.swiperOneData.IntervalTime}
                         </Text>
                     </View>
 
                     <View style={styles.listOneBottom}>
                         <Text style={styles.listOneBottomText}>
-                            目标日: {this.props.swiperOneData.targetDate}{" "}
-                            {this.props.swiperOneData.weekTime}
+                            目标日: {this.props.swiperOneData.targetDate}
+                            {this.props.swiperOneData.strWeek}
                         </Text>
                     </View>
                 </View>

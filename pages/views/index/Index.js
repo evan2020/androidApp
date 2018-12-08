@@ -15,6 +15,9 @@ import {
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
+import { http } from "../../http/index";
+import * as API from "../../http/api";
+import * as Timer from "../../utils/timer";
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
@@ -37,35 +40,75 @@ export class IndexCom extends React.Component {
         super(props);
         this.state = {
             listData: [
-                {
-                    leftText: `圣诞`,
-                    rightDate: `17`,
-                    rightUnit: `天`
-                },
-                {
-                    leftText: `元旦`,
-                    rightDate: `17`,
-                    rightUnit: `天`
-                },
-                {
-                    leftText: `春节`,
-                    rightDate: `17`,
-                    rightUnit: `天`
-                },
-                {
-                    leftText: `情人节`,
-                    rightDate: `17`,
-                    rightUnit: `天`
-                }
+                // {
+                //     checked: `0`,
+                //     classIfy: `综合`,
+                //     createTime: 1543732829000,
+                //     id: 28,
+                //     isRemind: "0",
+                //     isRepeat: "0",
+                //     itemName: `情人节`,
+                //     modifyTime: 1543732829000,
+                //     openId: "oBoHi5NGVpXF4LKHJ8UT-sOY_n8U",
+                //     targetDate: `2019-02-14`,
+                //     leftText: `圣诞`,
+                //     rightDate: `1`,
+                //     rightUnit: `天`,
+                //     IntervalTime: 2
+                // }
             ]
         };
         // 获取导航
         navigation = this.props.navigation;
     }
 
-    componentDidMount() {}
+    componentDidMount() {
+        let that = this;
+        console.log(`开始挂载首页`);
+        that.getAllCard();
+    }
 
     componentWillUnmount() {}
+
+    // 获取当前用户所有的卡片
+    getAllCard() {
+        let that = this;
+        http({
+            method: "get",
+            url: API.findAllCard,
+            params: {
+                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`
+            },
+            customErr: true
+        }).then(res => {
+            console.log(`请求结果 >>>>>>>>>>>>>`, res);
+            let cardListData = res.data.map((item, index) => {
+                let IntervalTime = Timer.timeStamp(item.targetDate);
+                let date = new Date(item.targetDate);
+                let timeStamp = date.getTime();
+                let week = date.getDay();
+                let nowDate = new Date();
+                let nowDay = nowDate.getDay();
+                let nowTimeStamp = nowDate.getTime();
+                if (week !== nowDay && nowTimeStamp < timeStamp) {
+                    IntervalTime += 1;
+                }
+                console.log(timeStamp);
+                let itemOne = {
+                    timeStamp: timeStamp, // 时间戳
+                    id: item.id, // 卡片id
+                    itemName: item.itemName, // 目标名称
+                    IntervalTime: IntervalTime + `` // 间隔时间
+                };
+                return itemOne;
+            });
+            cardListData.sort(Timer.sortBy("timeStamp"));
+            console.log(`cardListData >>>>>>>>>`, cardListData);
+            that.setState({
+                listData: cardListData
+            });
+        });
+    }
 
     linkToAdd() {
         Alert.alert("add");
@@ -86,8 +129,8 @@ export class IndexCom extends React.Component {
                     <FlatList
                         data={this.state.listData}
                         // 设置key值
-                        keyExtractor={item => item.rightDate}
-                        renderItem={({ item }) => (
+                        keyExtractor={(item, index) => index.toString()}
+                        renderItem={({ item, index }) => (
                             <ListOne
                                 listOneData={item}
                                 navigation={navigation}
@@ -118,19 +161,17 @@ class ListOne extends React.Component {
                 <View style={styles.listOne}>
                     <View style={styles.listOneLef}>
                         <Text style={styles.listOneLeftText}>
-                            {this.props.listOneData.leftText}
+                            {this.props.listOneData.itemName}
                         </Text>
                     </View>
                     <View style={styles.listOneRight}>
                         <View style={styles.listOneRightDate}>
                             <Text style={styles.listOneRightDateText}>
-                                {this.props.listOneData.rightDate}
+                                {this.props.listOneData.IntervalTime.toString()}
                             </Text>
                         </View>
                         <View style={styles.listOneRightUnit}>
-                            <Text style={styles.listOneRightUnitText}>
-                                {this.props.listOneData.rightUnit}
-                            </Text>
+                            <Text style={styles.listOneRightUnitText}>天</Text>
                         </View>
                     </View>
                 </View>
