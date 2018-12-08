@@ -12,14 +12,16 @@ import {
     Alert
 } from "react-native";
 
+import SwiperCom from "./index";
+
 // 设置底部tabBar组件
 export class BannerCom extends React.Component {
     // 设置标题栏
     static navigationOptions = {
         title: "轮播图",
         headerStyle: {
-            backgroundColor: "#eee",
-            display: "none"
+            backgroundColor: "#eee"
+            // display: "none"
         },
         headerTintColor: "#999",
         headerTitleStyle: {
@@ -30,7 +32,8 @@ export class BannerCom extends React.Component {
         return (
             // tabbar组件
             <View style={styles.BannerCom}>
-                <Text>BannerCom</Text>
+                <SwiperCom />
+                {/* <Text>BannerCom</Text> */}
             </View>
         );
     }
@@ -38,5 +41,7 @@ export class BannerCom extends React.Component {
 
 // 定义样式
 const styles = StyleSheet.create({
-    BannerCom: {}
+    BannerCom: {
+        flex: 1
+    }
 });
