@@ -10,7 +10,8 @@ import {
     Image,
     FlatList,
     Alert,
-    TouchableOpacity
+    TouchableOpacity,
+    Linking
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
@@ -100,7 +101,8 @@ class Navigation extends React.Component {
                 {
                     leftIconUrl: require("../../static/images/mine/feedback.png"),
                     centerTitle: `提交反馈`,
-                    arrowRight: require("../../static/images/mine/right.png")
+                    arrowRight: require("../../static/images/mine/right.png"),
+                    webSiteUrl: `http://dsx201601.mikecrm.com/pr7Ye5o`
                 }
             ]
         };
@@ -127,12 +129,17 @@ class NavOne extends React.Component {
     }
     linkToWeb(item) {
         console.log(item);
-        // 跳转到webWiew页面
-        navigation.navigate("WebViewCom", {
-            webSiteUrl: item.webSiteUrl,
-            title: item.centerTitle
-        });
-        // Alert.alert("test");
+        if (item.centerTitle === `联系客服`) {
+            // Alert.alert("联系客服");
+            // 点击拨打客服电话
+            Linking.openURL("tel:10086");
+        } else {
+            // 跳转到webWiew页面
+            navigation.navigate("WebViewCom", {
+                webSiteUrl: item.webSiteUrl,
+                title: item.centerTitle
+            });
+        }
     }
     render() {
         return (
