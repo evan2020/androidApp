@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "leancloud-storage": "^3.11.0",
     "qs": "^6.6.0",
     "react": "16.6.1",
     "react-native": "0.57.7",
