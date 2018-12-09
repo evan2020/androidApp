@@ -10,7 +10,9 @@ import {
     FlatList,
     TextInput,
     Image,
-    Alert
+    Alert,
+    AsyncStorage,
+    DeviceEventEmitter
 } from "react-native";
 
 // 存储服务
@@ -51,10 +53,15 @@ export class Register extends React.Component {
 
     componentDidMount() {
         console.log(`注册页面开始挂载 >>>>>>>>>>>>>`);
-        AV.init("GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz", "jci4BNtk6BTBJyhUGWk9qyci");
+        AV.init(
+            "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
+            "jci4BNtk6BTBJyhUGWk9qyci"
+        );
     }
 
-    componentWillUnmount() {}
+    componentWillUnmount() {
+        console.log(`注册页面离开 >>>>>>>>>>>>>`);
+    }
 
     register() {
         let that = this;
@@ -68,8 +75,18 @@ export class Register extends React.Component {
         // 设置邮箱
         // user.setEmail('tom@leancloud.cn');
         user.signUp().then(
-            function(loggedInUser) {
+            async function(loggedInUser) {
+                // 导航到首页页面
+                navigation.navigate("IndexCom");
                 console.log(`注册成功 >>>>>>>>>>`, loggedInUser);
+                try {
+                    await AsyncStorage.setItem("openId", loggedInUser.id);
+                    console.log(`保存成功 >>>>>>>>>>`);
+                    DeviceEventEmitter.emit("getOpenId", loggedInUser.id);
+                } catch (error) {
+                    // Error saving data
+                    console.log(`保存失败`, error);
+                }
                 Alert.alert(`注册成功`);
             },
             function(error) {
@@ -118,6 +135,19 @@ export class Register extends React.Component {
                             this.register();
                         }}
                         title="注册"
+                        accessibilityLabel="register"
+                    />
+                </View>
+
+                <View style={styles.registerBtn}>
+                    <Button
+                        style={{ width: "100%" }}
+                        onPress={() => {
+                            console.log(`跳转登录`);
+                            // 导航到登录页面
+                            navigation.push("Login");
+                        }}
+                        title="跳转登录"
                         accessibilityLabel="register"
                     />
                 </View>

@@ -20,6 +20,8 @@ import { WebViewCom } from "./pages/views/webView/WebView";
 import { Login } from "./pages/views/login/Login";
 // 引入注册页面
 import { Register } from "./pages/views/register/Register";
+// 引入按钮页面
+import { ShowBtn } from "./pages/views/other/showBtn/ShowBtn";
 
 // 平台类型
 const instructions = Platform.select({
@@ -37,7 +39,6 @@ const instructions = Platform.select({
 //     "jci4BNtk6BTBJyhUGWk9qyci"
 // );
 
-
 // 路由设置
 const AppNavigator = createStackNavigator(
     {
@@ -47,10 +48,12 @@ const AppNavigator = createStackNavigator(
         AddBanner: AddBanner,
         EditBanner: EditBanner,
         WebViewCom: WebViewCom,
-        Register: Register
+        Register: Register,
+        Login: Login,
+        ShowBtn: ShowBtn
     },
     {
-        initialRouteName: "Register" // 默认初始页为home组件
+        initialRouteName: "MineCom" // 默认初始页为home组件
     }
 );
 

@@ -14,7 +14,8 @@ import {
     Alert,
     TextInput,
     DatePickerAndroid,
-    DeviceEventEmitter
+    DeviceEventEmitter,
+    AsyncStorage
 } from "react-native";
 
 import { http } from "../../../http/index";
@@ -36,7 +37,7 @@ export class AddBanner extends React.Component {
     static navigationOptions = {
         title: "添加倒计时卡片",
         headerStyle: {
-            backgroundColor: "#eee",
+            backgroundColor: "#eee"
             // display: "none"
         },
         headerTintColor: "#999",
@@ -47,13 +48,37 @@ export class AddBanner extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            openId: ``,
             listData: []
         };
         // 获取导航
         navigation = this.props.navigation;
     }
 
-    componentDidMount() {}
+    async getOpenId() {
+        let that = this;
+        console.log(`async getOpenId >>>>>>>>`);
+        try {
+            const value = await AsyncStorage.getItem("openId");
+            if (value !== null) {
+                // We have data!!
+                console.log(`获取到openID >>>>>>>>>>>`, value);
+                that.setState({
+                    openId: value
+                });
+            }
+        } catch (error) {
+            // Error retrieving data
+            console.log(`error >>>>>>>`, error);
+            // 导航到注册页面
+            navigation.navigate("Register");
+        }
+    }
+
+    componentDidMount() {
+        let that = this;
+        that.getOpenId();
+    }
 
     componentWillUnmount() {
         console.log(`添加页面离开时 >>>>>>>>>>>>>>>>>`);
@@ -63,11 +88,13 @@ export class AddBanner extends React.Component {
     // 保存卡片
     saveCard() {
         let that = this;
+        that.getOpenId();
+        console.log(`that.state.openId >>`, that.state.openId);
         http({
             method: "get",
             url: API.addCard,
             params: {
-                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`,
+                openId: that.state.openId,
                 itemName: globalData.itemName,
                 targetDate: globalData.targetDate
             },
@@ -96,7 +123,9 @@ export class AddBanner extends React.Component {
                     }}
                 >
                     <Button
-                        onPress={this.saveCard}
+                        onPress={() => {
+                            this.saveCard();
+                        }}
                         title="保存"
                         accessibilityLabel="Learn more about this purple button"
                         style={styles.save}

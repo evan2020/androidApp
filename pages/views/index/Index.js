@@ -12,7 +12,8 @@ import {
     SectionList,
     TouchableOpacity,
     Alert,
-    DeviceEventEmitter
+    DeviceEventEmitter,
+    AsyncStorage
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
@@ -40,6 +41,7 @@ export class IndexCom extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            openId: ``,
             listData: [
                 // {
                 //     checked: `0`,
@@ -63,13 +65,44 @@ export class IndexCom extends React.Component {
         navigation = this.props.navigation;
     }
 
+    async getOpenId() {
+        let that = this;
+        console.log(`async getOpenId >>>>>>>>`);
+        try {
+            const value = await AsyncStorage.getItem("openId");
+            if (value !== null) {
+                // We have data!!
+                console.log(`获取到openID >>>>>>>>>>>`, value);
+                that.setState(
+                    {
+                        openId: value
+                    },
+                    () => {
+                        that.getAllCard();
+                    }
+                );
+                // Alert.alert(value);
+            }
+        } catch (error) {
+            // Error retrieving data
+            console.log(`error >>>>>>>`, error);
+            // 导航到注册页面
+            navigation.navigate("Register");
+        }
+    }
+
     componentDidMount() {
         let that = this;
         console.log(`开始挂载首页`);
-        that.getAllCard();
+        this.getOpenId();
         DeviceEventEmitter.addListener("IndexCom", a => {
             // 当编辑页面离开时,回到首页重新刷新数据
-            that.getAllCard();
+            that.getOpenId();
+        });
+        DeviceEventEmitter.addListener("getOpenId", a => {
+            // 注册页面离开时,回到首页拿取openId
+            console.log(`getOpenId >>>>>>>>>>`);
+            that.getOpenId();
         });
     }
 
@@ -80,11 +113,12 @@ export class IndexCom extends React.Component {
     // 获取当前用户所有的卡片
     getAllCard() {
         let that = this;
+        console.log(`that.state.openId >>>>>>>>>>>>>>`, that.state.openId);
         http({
             method: "get",
             url: API.findAllCard,
             params: {
-                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`
+                openId: that.state.openId
             },
             customErr: true
         }).then(res => {
@@ -161,8 +195,8 @@ class ListOne extends React.Component {
     showBanner(item) {
         console.log(`bannerData >>>>>>>`, item);
         // 导航到轮播图页面
-        navigation.navigate("BannerCom",{
-            id:item.id
+        navigation.navigate("BannerCom", {
+            id: item.id
         });
     }
     render() {
@@ -219,7 +253,7 @@ const styles = StyleSheet.create({
         height: 50,
         position: "relative",
         top: -25,
-        backgroundColor:"#fff"
+        backgroundColor: "#fff"
     },
     listOne: {
         width: "100%",

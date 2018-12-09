@@ -62,13 +62,21 @@ class AvatarCom extends React.Component {
     render() {
         return (
             <View style={styles.avatarCom}>
-                <Image
-                    style={styles.avatarImg}
-                    source={{
-                        uri:
-                            "https://file.smallzhiyun.com/001ec949c8d6138ec9a261_%E5%89%AF%E6%9C%AC.jpg"
+                <TouchableOpacity
+                    onPress={() => {
+                        console.log(`点击头像`);
+                        // ShowBtn
+                        navigation.navigate("ShowBtn");
                     }}
-                />
+                >
+                    <Image
+                        style={styles.avatarImg}
+                        source={{
+                            uri:
+                                "https://file.smallzhiyun.com/001ec949c8d6138ec9a261_%E5%89%AF%E6%9C%AC.jpg"
+                        }}
+                    />
+                </TouchableOpacity>
                 <Text style={styles.userName}>大师兄</Text>
             </View>
         );

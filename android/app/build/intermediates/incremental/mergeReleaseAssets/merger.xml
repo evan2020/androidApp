@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config=":react-native-gesture-handler"><source path="E:\github\androidApp\node_modules\react-native-gesture-handler\android\build\intermediates\packagedAssets\release"/></dataSet><dataSet config="main"><source path="E:\github\androidApp\android\app\src\main\assets"/><source path="E:\github\androidApp\android\app\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\github\androidApp\android\app\src\release\assets"/></dataSet></merger>

@@ -11,7 +11,8 @@ import {
     Image,
     TouchableOpacity,
     Alert,
-    FlatList
+    FlatList,
+    AsyncStorage
 } from "react-native";
 import Swiper from "react-native-swiper";
 import { http } from "../../http/index";
@@ -49,6 +50,7 @@ export class BannerCom extends React.Component {
     componentDidMount() {}
 
     componentWillUnmount() {}
+
     render() {
         return (
             // tabbar组件
@@ -64,6 +66,7 @@ class SwiperCom extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            openId: ``,
             bannerList: [
                 {
                     itemName: `元旦`,
@@ -79,11 +82,37 @@ class SwiperCom extends React.Component {
         };
     }
 
+    async getOpenId() {
+        let that = this;
+        console.log(`async getOpenId >>>>>>>>`);
+        try {
+            const value = await AsyncStorage.getItem("openId");
+            if (value !== null) {
+                // We have data!!
+                console.log(`获取到openID >>>>>>>>>>>`, value);
+                that.setState(
+                    {
+                        openId: value
+                    },
+                    () => {
+                        that.getAllCard();
+                    }
+                );
+                // Alert.alert(value);
+            }
+        } catch (error) {
+            // Error retrieving data
+            console.log(`error >>>>>>>`, error);
+            // 导航到注册页面
+            navigation.navigate("Register");
+        }
+    }
+
     componentDidMount() {
         let that = this;
         console.log(`开始挂载轮播图`);
         globalData.id = navigation.getParam("id", 0);
-        that.getAllCard();
+        that.getOpenId();
     }
 
     componentWillUnmount() {}
@@ -94,7 +123,7 @@ class SwiperCom extends React.Component {
             method: "get",
             url: API.findAllCard,
             params: {
-                openId: `oBoHi5NGVpXF4LKHJ8UT-sOY_n8U`
+                openId: that.state.openId
             },
             customErr: true
         }).then(res => {

@@ -9,8 +9,14 @@ import {
     Button,
     FlatList,
     TextInput,
-    Image
+    Image,
+    AsyncStorage,
+    DeviceEventEmitter
 } from "react-native";
+
+// 存储服务
+AV = require("leancloud-storage");
+let { Query, User } = AV;
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
@@ -37,6 +43,7 @@ export class Login extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            openId: ``,
             userName: ``,
             password: ``
         };
@@ -44,9 +51,40 @@ export class Login extends React.Component {
         navigation = this.props.navigation;
     }
 
+    componentDidMount() {
+        console.log(`登录页面开始挂载 >>>>>>>>>>>>>`);
+        AV.init(
+            "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
+            "jci4BNtk6BTBJyhUGWk9qyci"
+        );
+    }
+
+    componentWillUnmount() {
+        console.log(`登录页面离开 >>>>>>>>>>>>>`);
+    }
+
     login() {
         let that = this;
-        console.log(`login`);
+        console.log(`login`, that.state);
+        AV.User.logIn(that.state.userName + ``, that.state.password + ``).then(
+            async function(loggedInUser) {
+                console.log(`登录成功 >>>>>>>`, loggedInUser);
+                try {
+                    await AsyncStorage.setItem("openId", loggedInUser.id);
+                    console.log(`保存成功 >>>>>>>>>>`);
+                    DeviceEventEmitter.emit("getOpenId", loggedInUser.id);
+                } catch (error) {
+                    // Error saving data
+                    console.log(`保存失败`, error);
+                }
+                // 导航到注册页面
+                navigation.push("IndexCom");
+            },
+            function(error) {
+                console.log(`登录失败 >>>>>>>`, error);
+                alert.alert(`登录失败`);
+            }
+        );
     }
     render() {
         return (
@@ -84,8 +122,21 @@ export class Login extends React.Component {
                 <View style={styles.loginBtn}>
                     <Button
                         style={{ width: "100%" }}
-                        onPress={this.login}
+                        onPress={() => {
+                            this.login();
+                        }}
                         title="登录"
+                        accessibilityLabel="login"
+                    />
+                </View>
+                <View style={styles.loginBtn}>
+                    <Button
+                        style={{ width: "100%" }}
+                        onPress={() => {
+                            // 导航到注册页面
+                            navigation.push("Register");
+                        }}
+                        title="跳转注册"
                         accessibilityLabel="login"
                     />
                 </View>
