@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.hourglasstime;
 
 import com.facebook.react.ReactActivity;
 

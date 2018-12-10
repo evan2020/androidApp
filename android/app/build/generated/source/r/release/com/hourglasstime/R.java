@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.awesomeproject;
+package com.hourglasstime;
 
 public final class R {
   public static final class anim {
@@ -3296,35 +3296,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.awesomeproject:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.awesomeproject:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.awesomeproject:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.awesomeproject:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.awesomeproject:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.awesomeproject:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.awesomeproject:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.awesomeproject:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.awesomeproject:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.awesomeproject:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.awesomeproject:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.awesomeproject:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.awesomeproject:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.awesomeproject:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.awesomeproject:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.awesomeproject:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.awesomeproject:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.awesomeproject:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.awesomeproject:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.awesomeproject:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.awesomeproject:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.awesomeproject:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.awesomeproject:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.awesomeproject:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.awesomeproject:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.awesomeproject:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.awesomeproject:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.awesomeproject:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.awesomeproject:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.hourglasstime:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.hourglasstime:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.hourglasstime:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.hourglasstime:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.hourglasstime:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.hourglasstime:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.hourglasstime:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.hourglasstime:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.hourglasstime:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.hourglasstime:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.hourglasstime:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.hourglasstime:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.hourglasstime:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.hourglasstime:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.hourglasstime:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.hourglasstime:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.hourglasstime:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.hourglasstime:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.hourglasstime:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.hourglasstime:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.hourglasstime:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.hourglasstime:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.hourglasstime:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.hourglasstime:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.hourglasstime:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.hourglasstime:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.hourglasstime:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.hourglasstime:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.hourglasstime:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3367,7 +3367,7 @@ public final class R {
         0x7f020113
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3375,11 +3375,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:background
+     * @attr name com.hourglasstime:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3390,11 +3390,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundSplit
+     * @attr name com.hourglasstime:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3405,11 +3405,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundStacked
+     * @attr name com.hourglasstime:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3418,11 +3418,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetEnd
+     * @attr name com.hourglasstime:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3431,11 +3431,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetEndWithActions
+     * @attr name com.hourglasstime:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3444,11 +3444,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetLeft
+     * @attr name com.hourglasstime:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3457,11 +3457,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetRight
+     * @attr name com.hourglasstime:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3470,11 +3470,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetStart
+     * @attr name com.hourglasstime:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3483,11 +3483,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetStartWithNavigation
+     * @attr name com.hourglasstime:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3495,11 +3495,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:customNavigationLayout
+     * @attr name com.hourglasstime:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3517,11 +3517,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:displayOptions
+     * @attr name com.hourglasstime:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3529,11 +3529,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:divider
+     * @attr name com.hourglasstime:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3542,11 +3542,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:elevation
+     * @attr name com.hourglasstime:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3555,21 +3555,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:height
+     * @attr name com.hourglasstime:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:hideOnContentScroll
+     * @attr name com.hourglasstime:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3577,11 +3577,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:homeAsUpIndicator
+     * @attr name com.hourglasstime:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3589,11 +3589,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:homeLayout
+     * @attr name com.hourglasstime:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3601,11 +3601,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:icon
+     * @attr name com.hourglasstime:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3613,11 +3613,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:indeterminateProgressStyle
+     * @attr name com.hourglasstime:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3626,11 +3626,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:itemPadding
+     * @attr name com.hourglasstime:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3638,11 +3638,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:logo
+     * @attr name com.hourglasstime:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3656,11 +3656,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:navigationMode
+     * @attr name com.hourglasstime:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3668,11 +3668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:popupTheme
+     * @attr name com.hourglasstime:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3681,11 +3681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:progressBarPadding
+     * @attr name com.hourglasstime:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3693,21 +3693,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:progressBarStyle
+     * @attr name com.hourglasstime:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:subtitle
+     * @attr name com.hourglasstime:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3715,21 +3715,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:subtitleTextStyle
+     * @attr name com.hourglasstime:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:title
+     * @attr name com.hourglasstime:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3737,7 +3737,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:titleTextStyle
+     * @attr name com.hourglasstime:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3819,12 +3819,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.awesomeproject:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.awesomeproject:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.awesomeproject:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.awesomeproject:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.awesomeproject:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.awesomeproject:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.hourglasstime:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.hourglasstime:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.hourglasstime:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.hourglasstime:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.hourglasstime:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.hourglasstime:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3838,7 +3838,7 @@ public final class R {
         0x7f0200ef, 0x7f020113
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3846,11 +3846,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:background
+     * @attr name com.hourglasstime:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3861,11 +3861,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundSplit
+     * @attr name com.hourglasstime:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3873,11 +3873,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:closeItemLayout
+     * @attr name com.hourglasstime:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3886,11 +3886,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:height
+     * @attr name com.hourglasstime:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3898,11 +3898,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:subtitleTextStyle
+     * @attr name com.hourglasstime:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3910,7 +3910,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:titleTextStyle
+     * @attr name com.hourglasstime:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3920,8 +3920,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.awesomeproject:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.awesomeproject:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.hourglasstime:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.hourglasstime:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -3930,7 +3930,7 @@ public final class R {
         0x7f020074, 0x7f02008e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3938,17 +3938,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:expandActivityOverflowButtonDrawable
+     * @attr name com.hourglasstime:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:initialActivityCount
+     * @attr name com.hourglasstime:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3959,13 +3959,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.awesomeproject:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.awesomeproject:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.awesomeproject:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.awesomeproject:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.awesomeproject:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.awesomeproject:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.awesomeproject:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.hourglasstime:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.hourglasstime:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.hourglasstime:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.hourglasstime:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.hourglasstime:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.hourglasstime:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.hourglasstime:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -3993,7 +3993,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4002,11 +4002,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:buttonIconDimen
+     * @attr name com.hourglasstime:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4014,11 +4014,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonPanelSideLayout
+     * @attr name com.hourglasstime:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4026,11 +4026,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listItemLayout
+     * @attr name com.hourglasstime:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4038,11 +4038,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listLayout
+     * @attr name com.hourglasstime:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4050,21 +4050,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:multiChoiceItemLayout
+     * @attr name com.hourglasstime:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:showTitle
+     * @attr name com.hourglasstime:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4072,7 +4072,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:singleChoiceItemLayout
+     * @attr name com.hourglasstime:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -4083,9 +4083,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.awesomeproject:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.awesomeproject:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.awesomeproject:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.hourglasstime:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.hourglasstime:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.hourglasstime:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4111,7 +4111,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4119,22 +4119,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:srcCompat
+     * @attr name com.hourglasstime:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:tint
+     * @attr name com.hourglasstime:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4151,7 +4151,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:tintMode
+     * @attr name com.hourglasstime:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4162,9 +4162,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.awesomeproject:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.awesomeproject:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.awesomeproject:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.hourglasstime:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.hourglasstime:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.hourglasstime:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4187,7 +4187,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4195,22 +4195,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:tickMark
+     * @attr name com.hourglasstime:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:tickMarkTint
+     * @attr name com.hourglasstime:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4227,7 +4227,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:tickMarkTintMode
+     * @attr name com.hourglasstime:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4367,13 +4367,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.awesomeproject:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.awesomeproject:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.awesomeproject:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.awesomeproject:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.awesomeproject:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.awesomeproject:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.awesomeproject:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.hourglasstime:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.hourglasstime:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.hourglasstime:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.hourglasstime:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.hourglasstime:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.hourglasstime:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.hourglasstime:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4401,7 +4401,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4410,11 +4410,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:autoSizeMaxTextSize
+     * @attr name com.hourglasstime:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4423,11 +4423,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:autoSizeMinTextSize
+     * @attr name com.hourglasstime:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4435,11 +4435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:autoSizePresetSizes
+     * @attr name com.hourglasstime:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4448,11 +4448,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:autoSizeStepGranularity
+     * @attr name com.hourglasstime:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4465,21 +4465,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:autoSizeTextType
+     * @attr name com.hourglasstime:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:fontFamily
+     * @attr name com.hourglasstime:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4489,7 +4489,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:textAllCaps
+     * @attr name com.hourglasstime:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4501,124 +4501,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.awesomeproject:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.awesomeproject:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.awesomeproject:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.awesomeproject:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.awesomeproject:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.awesomeproject:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.awesomeproject:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.awesomeproject:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.awesomeproject:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.awesomeproject:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.awesomeproject:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.awesomeproject:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.awesomeproject:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.awesomeproject:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.awesomeproject:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.awesomeproject:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.awesomeproject:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.awesomeproject:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.awesomeproject:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.awesomeproject:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.awesomeproject:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.awesomeproject:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.awesomeproject:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.awesomeproject:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.awesomeproject:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.awesomeproject:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.awesomeproject:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.awesomeproject:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.awesomeproject:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.awesomeproject:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.awesomeproject:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.awesomeproject:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.awesomeproject:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.awesomeproject:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.awesomeproject:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.awesomeproject:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.awesomeproject:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.awesomeproject:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.awesomeproject:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.awesomeproject:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.awesomeproject:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.awesomeproject:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.awesomeproject:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.awesomeproject:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.awesomeproject:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.awesomeproject:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.awesomeproject:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.awesomeproject:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.awesomeproject:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.awesomeproject:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.awesomeproject:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.awesomeproject:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.awesomeproject:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.awesomeproject:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.awesomeproject:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.awesomeproject:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.awesomeproject:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.awesomeproject:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.awesomeproject:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.awesomeproject:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.awesomeproject:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.awesomeproject:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.awesomeproject:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.awesomeproject:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.awesomeproject:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.awesomeproject:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.awesomeproject:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.awesomeproject:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.awesomeproject:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.awesomeproject:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.awesomeproject:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.awesomeproject:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.awesomeproject:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.awesomeproject:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.awesomeproject:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.awesomeproject:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.awesomeproject:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.awesomeproject:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.awesomeproject:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.awesomeproject:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.awesomeproject:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.awesomeproject:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.awesomeproject:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.awesomeproject:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.awesomeproject:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.awesomeproject:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.awesomeproject:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.awesomeproject:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.awesomeproject:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.awesomeproject:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.awesomeproject:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.awesomeproject:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.awesomeproject:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.awesomeproject:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.awesomeproject:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.awesomeproject:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.awesomeproject:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.awesomeproject:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.awesomeproject:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.awesomeproject:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.awesomeproject:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.awesomeproject:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.awesomeproject:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.awesomeproject:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.awesomeproject:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.awesomeproject:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.awesomeproject:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.awesomeproject:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.awesomeproject:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.awesomeproject:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.awesomeproject:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.awesomeproject:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.awesomeproject:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.awesomeproject:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.awesomeproject:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.awesomeproject:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.awesomeproject:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.awesomeproject:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.hourglasstime:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.hourglasstime:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.hourglasstime:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.hourglasstime:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.hourglasstime:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.hourglasstime:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.hourglasstime:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.hourglasstime:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.hourglasstime:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.hourglasstime:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.hourglasstime:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.hourglasstime:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.hourglasstime:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.hourglasstime:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.hourglasstime:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.hourglasstime:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.hourglasstime:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.hourglasstime:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.hourglasstime:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.hourglasstime:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.hourglasstime:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.hourglasstime:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.hourglasstime:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.hourglasstime:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.hourglasstime:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.hourglasstime:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.hourglasstime:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.hourglasstime:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.hourglasstime:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.hourglasstime:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.hourglasstime:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.hourglasstime:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.hourglasstime:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.hourglasstime:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.hourglasstime:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.hourglasstime:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.hourglasstime:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.hourglasstime:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.hourglasstime:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.hourglasstime:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.hourglasstime:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.hourglasstime:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.hourglasstime:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.hourglasstime:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.hourglasstime:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.hourglasstime:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.hourglasstime:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.hourglasstime:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.hourglasstime:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.hourglasstime:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.hourglasstime:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.hourglasstime:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.hourglasstime:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.hourglasstime:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.hourglasstime:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.hourglasstime:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.hourglasstime:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.hourglasstime:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.hourglasstime:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.hourglasstime:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.hourglasstime:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.hourglasstime:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.hourglasstime:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.hourglasstime:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.hourglasstime:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.hourglasstime:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.hourglasstime:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.hourglasstime:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.hourglasstime:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.hourglasstime:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.hourglasstime:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.hourglasstime:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.hourglasstime:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.hourglasstime:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.hourglasstime:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.hourglasstime:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.hourglasstime:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.hourglasstime:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.hourglasstime:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.hourglasstime:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.hourglasstime:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.hourglasstime:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.hourglasstime:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.hourglasstime:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.hourglasstime:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.hourglasstime:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.hourglasstime:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.hourglasstime:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.hourglasstime:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.hourglasstime:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.hourglasstime:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.hourglasstime:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.hourglasstime:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.hourglasstime:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.hourglasstime:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.hourglasstime:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.hourglasstime:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.hourglasstime:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.hourglasstime:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.hourglasstime:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.hourglasstime:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.hourglasstime:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.hourglasstime:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.hourglasstime:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.hourglasstime:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.hourglasstime:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.hourglasstime:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.hourglasstime:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.hourglasstime:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.hourglasstime:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.hourglasstime:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.hourglasstime:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.hourglasstime:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.hourglasstime:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.hourglasstime:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.hourglasstime:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.hourglasstime:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.hourglasstime:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -4796,7 +4796,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4804,11 +4804,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarDivider
+     * @attr name com.hourglasstime:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4816,11 +4816,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarItemBackground
+     * @attr name com.hourglasstime:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4828,11 +4828,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarPopupTheme
+     * @attr name com.hourglasstime:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4849,11 +4849,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:actionBarSize
+     * @attr name com.hourglasstime:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4861,11 +4861,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarSplitStyle
+     * @attr name com.hourglasstime:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4873,11 +4873,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarStyle
+     * @attr name com.hourglasstime:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4885,11 +4885,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarTabBarStyle
+     * @attr name com.hourglasstime:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4897,11 +4897,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarTabStyle
+     * @attr name com.hourglasstime:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4909,11 +4909,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarTabTextStyle
+     * @attr name com.hourglasstime:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4921,11 +4921,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarTheme
+     * @attr name com.hourglasstime:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4933,11 +4933,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionBarWidgetTheme
+     * @attr name com.hourglasstime:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4945,11 +4945,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionButtonStyle
+     * @attr name com.hourglasstime:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4957,11 +4957,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionDropDownStyle
+     * @attr name com.hourglasstime:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4969,11 +4969,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionMenuTextAppearance
+     * @attr name com.hourglasstime:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4984,11 +4984,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:actionMenuTextColor
+     * @attr name com.hourglasstime:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4996,11 +4996,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeBackground
+     * @attr name com.hourglasstime:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5008,11 +5008,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeCloseButtonStyle
+     * @attr name com.hourglasstime:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5020,11 +5020,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeCloseDrawable
+     * @attr name com.hourglasstime:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5032,11 +5032,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeCopyDrawable
+     * @attr name com.hourglasstime:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5044,11 +5044,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeCutDrawable
+     * @attr name com.hourglasstime:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5056,11 +5056,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeFindDrawable
+     * @attr name com.hourglasstime:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5068,11 +5068,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModePasteDrawable
+     * @attr name com.hourglasstime:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5080,11 +5080,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModePopupWindowStyle
+     * @attr name com.hourglasstime:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5092,11 +5092,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeSelectAllDrawable
+     * @attr name com.hourglasstime:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5104,11 +5104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeShareDrawable
+     * @attr name com.hourglasstime:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5116,11 +5116,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeSplitBackground
+     * @attr name com.hourglasstime:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5128,11 +5128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeStyle
+     * @attr name com.hourglasstime:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5140,11 +5140,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionModeWebSearchDrawable
+     * @attr name com.hourglasstime:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5152,11 +5152,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionOverflowButtonStyle
+     * @attr name com.hourglasstime:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5164,11 +5164,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionOverflowMenuStyle
+     * @attr name com.hourglasstime:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5176,11 +5176,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:activityChooserViewStyle
+     * @attr name com.hourglasstime:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5188,21 +5188,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:alertDialogButtonGroupStyle
+     * @attr name com.hourglasstime:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:alertDialogCenterButtons
+     * @attr name com.hourglasstime:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5210,11 +5210,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:alertDialogStyle
+     * @attr name com.hourglasstime:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5222,11 +5222,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:alertDialogTheme
+     * @attr name com.hourglasstime:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5234,11 +5234,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:autoCompleteTextViewStyle
+     * @attr name com.hourglasstime:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5246,11 +5246,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:borderlessButtonStyle
+     * @attr name com.hourglasstime:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5258,11 +5258,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonBarButtonStyle
+     * @attr name com.hourglasstime:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5270,11 +5270,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonBarNegativeButtonStyle
+     * @attr name com.hourglasstime:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5282,11 +5282,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonBarNeutralButtonStyle
+     * @attr name com.hourglasstime:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5294,11 +5294,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonBarPositiveButtonStyle
+     * @attr name com.hourglasstime:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5306,11 +5306,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonBarStyle
+     * @attr name com.hourglasstime:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5318,11 +5318,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonStyle
+     * @attr name com.hourglasstime:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5330,11 +5330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:buttonStyleSmall
+     * @attr name com.hourglasstime:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5342,11 +5342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:checkboxStyle
+     * @attr name com.hourglasstime:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5354,77 +5354,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:checkedTextViewStyle
+     * @attr name com.hourglasstime:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorAccent
+     * @attr name com.hourglasstime:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorBackgroundFloating
+     * @attr name com.hourglasstime:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorButtonNormal
+     * @attr name com.hourglasstime:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorControlActivated
+     * @attr name com.hourglasstime:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorControlHighlight
+     * @attr name com.hourglasstime:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorControlNormal
+     * @attr name com.hourglasstime:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5435,44 +5435,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorError
+     * @attr name com.hourglasstime:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorPrimary
+     * @attr name com.hourglasstime:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorPrimaryDark
+     * @attr name com.hourglasstime:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:colorSwitchThumbNormal
+     * @attr name com.hourglasstime:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5480,11 +5480,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:controlBackground
+     * @attr name com.hourglasstime:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5493,11 +5493,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:dialogPreferredPadding
+     * @attr name com.hourglasstime:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5505,11 +5505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:dialogTheme
+     * @attr name com.hourglasstime:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5517,11 +5517,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:dividerHorizontal
+     * @attr name com.hourglasstime:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5529,11 +5529,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:dividerVertical
+     * @attr name com.hourglasstime:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5541,11 +5541,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:dropDownListViewStyle
+     * @attr name com.hourglasstime:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5554,11 +5554,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:dropdownListPreferredItemHeight
+     * @attr name com.hourglasstime:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5566,11 +5566,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:editTextBackground
+     * @attr name com.hourglasstime:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5581,11 +5581,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:editTextColor
+     * @attr name com.hourglasstime:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5593,11 +5593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:editTextStyle
+     * @attr name com.hourglasstime:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5605,11 +5605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:homeAsUpIndicator
+     * @attr name com.hourglasstime:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5617,11 +5617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:imageButtonStyle
+     * @attr name com.hourglasstime:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5629,11 +5629,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listChoiceBackgroundIndicator
+     * @attr name com.hourglasstime:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5641,11 +5641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listDividerAlertDialog
+     * @attr name com.hourglasstime:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5653,11 +5653,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listMenuViewStyle
+     * @attr name com.hourglasstime:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5665,11 +5665,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:listPopupWindowStyle
+     * @attr name com.hourglasstime:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5678,11 +5678,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:listPreferredItemHeight
+     * @attr name com.hourglasstime:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5691,11 +5691,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:listPreferredItemHeightLarge
+     * @attr name com.hourglasstime:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5704,11 +5704,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:listPreferredItemHeightSmall
+     * @attr name com.hourglasstime:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5717,11 +5717,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:listPreferredItemPaddingLeft
+     * @attr name com.hourglasstime:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5730,11 +5730,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:listPreferredItemPaddingRight
+     * @attr name com.hourglasstime:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5742,11 +5742,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:panelBackground
+     * @attr name com.hourglasstime:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5754,11 +5754,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:panelMenuListTheme
+     * @attr name com.hourglasstime:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5767,11 +5767,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:panelMenuListWidth
+     * @attr name com.hourglasstime:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5779,11 +5779,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:popupMenuStyle
+     * @attr name com.hourglasstime:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5791,11 +5791,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:popupWindowStyle
+     * @attr name com.hourglasstime:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5803,11 +5803,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:radioButtonStyle
+     * @attr name com.hourglasstime:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5815,11 +5815,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:ratingBarStyle
+     * @attr name com.hourglasstime:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5827,11 +5827,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:ratingBarStyleIndicator
+     * @attr name com.hourglasstime:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5839,11 +5839,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:ratingBarStyleSmall
+     * @attr name com.hourglasstime:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5851,11 +5851,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:searchViewStyle
+     * @attr name com.hourglasstime:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5863,11 +5863,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:seekBarStyle
+     * @attr name com.hourglasstime:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5875,11 +5875,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:selectableItemBackground
+     * @attr name com.hourglasstime:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5887,11 +5887,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:selectableItemBackgroundBorderless
+     * @attr name com.hourglasstime:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5899,11 +5899,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:spinnerDropDownItemStyle
+     * @attr name com.hourglasstime:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5911,11 +5911,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:spinnerStyle
+     * @attr name com.hourglasstime:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5923,11 +5923,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:switchStyle
+     * @attr name com.hourglasstime:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5935,11 +5935,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceLargePopupMenu
+     * @attr name com.hourglasstime:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5947,11 +5947,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceListItem
+     * @attr name com.hourglasstime:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5959,11 +5959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceListItemSecondary
+     * @attr name com.hourglasstime:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5971,11 +5971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceListItemSmall
+     * @attr name com.hourglasstime:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5983,11 +5983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearancePopupMenuHeader
+     * @attr name com.hourglasstime:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5995,11 +5995,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceSearchResultSubtitle
+     * @attr name com.hourglasstime:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6007,11 +6007,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceSearchResultTitle
+     * @attr name com.hourglasstime:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6019,11 +6019,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:textAppearanceSmallPopupMenu
+     * @attr name com.hourglasstime:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6034,11 +6034,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:textColorAlertDialogListItem
+     * @attr name com.hourglasstime:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6049,11 +6049,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:textColorSearchUrl
+     * @attr name com.hourglasstime:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6061,11 +6061,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:toolbarNavigationButtonStyle
+     * @attr name com.hourglasstime:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6073,11 +6073,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:toolbarStyle
+     * @attr name com.hourglasstime:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6088,11 +6088,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:tooltipForegroundColor
+     * @attr name com.hourglasstime:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6100,51 +6100,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:tooltipFrameBackground
+     * @attr name com.hourglasstime:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:viewInflaterClass
+     * @attr name com.hourglasstime:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:windowActionBar
+     * @attr name com.hourglasstime:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:windowActionBarOverlay
+     * @attr name com.hourglasstime:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:windowActionModeOverlay
+     * @attr name com.hourglasstime:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6157,11 +6157,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowFixedHeightMajor
+     * @attr name com.hourglasstime:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6174,11 +6174,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowFixedHeightMinor
+     * @attr name com.hourglasstime:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6191,11 +6191,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowFixedWidthMajor
+     * @attr name com.hourglasstime:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6208,11 +6208,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowFixedWidthMinor
+     * @attr name com.hourglasstime:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6225,11 +6225,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowMinWidthMajor
+     * @attr name com.hourglasstime:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6242,17 +6242,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.awesomeproject:windowMinWidthMinor
+     * @attr name com.hourglasstime:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:windowNoTitle
+     * @attr name com.hourglasstime:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -6262,7 +6262,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.awesomeproject:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.hourglasstime:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6270,13 +6270,13 @@ public final class R {
         0x7f020029
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:allowStacking
+     * @attr name com.hourglasstime:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6288,7 +6288,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.awesomeproject:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.hourglasstime:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6318,12 +6318,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.awesomeproject:alpha
+     * @attr name com.hourglasstime:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6334,8 +6334,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.awesomeproject:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.awesomeproject:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.hourglasstime:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.hourglasstime:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6357,18 +6357,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:buttonTint
+     * @attr name com.hourglasstime:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6385,7 +6385,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:buttonTintMode
+     * @attr name com.hourglasstime:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6395,8 +6395,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.awesomeproject:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.awesomeproject:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.hourglasstime:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.hourglasstime:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -6405,7 +6405,7 @@ public final class R {
         0x7f020091, 0x7f0200e9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6413,11 +6413,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:keylines
+     * @attr name com.hourglasstime:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6428,7 +6428,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:statusBarBackground
+     * @attr name com.hourglasstime:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -6439,12 +6439,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.awesomeproject:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.awesomeproject:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.awesomeproject:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.awesomeproject:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.awesomeproject:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.awesomeproject:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.hourglasstime:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.hourglasstime:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.hourglasstime:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.hourglasstime:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.hourglasstime:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.hourglasstime:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -6488,7 +6488,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6496,11 +6496,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:layout_anchor
+     * @attr name com.hourglasstime:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6525,21 +6525,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:layout_anchorGravity
+     * @attr name com.hourglasstime:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:layout_behavior
+     * @attr name com.hourglasstime:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6558,11 +6558,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:layout_dodgeInsetEdges
+     * @attr name com.hourglasstime:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6580,16 +6580,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:layout_insetEdge
+     * @attr name com.hourglasstime:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:layout_keyline
+     * @attr name com.hourglasstime:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -6599,14 +6599,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.awesomeproject:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.awesomeproject:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.awesomeproject:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.awesomeproject:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.awesomeproject:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.awesomeproject:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.awesomeproject:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.awesomeproject:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.hourglasstime:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.hourglasstime:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.hourglasstime:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.hourglasstime:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.hourglasstime:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.hourglasstime:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.hourglasstime:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.hourglasstime:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -6622,7 +6622,7 @@ public final class R {
         0x7f02006c, 0x7f020082, 0x7f0200e3, 0x7f020101
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6631,11 +6631,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:arrowHeadLength
+     * @attr name com.hourglasstime:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6644,11 +6644,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:arrowShaftLength
+     * @attr name com.hourglasstime:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6657,22 +6657,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:barLength
+     * @attr name com.hourglasstime:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:color
+     * @attr name com.hourglasstime:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6681,11 +6681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:drawableSize
+     * @attr name com.hourglasstime:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6694,21 +6694,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:gapBetweenBars
+     * @attr name com.hourglasstime:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:spinBars
+     * @attr name com.hourglasstime:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6717,7 +6717,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:thickness
+     * @attr name com.hourglasstime:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -6727,12 +6727,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.awesomeproject:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.awesomeproject:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.awesomeproject:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.awesomeproject:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.awesomeproject:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.awesomeproject:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.hourglasstime:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.hourglasstime:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.hourglasstime:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.hourglasstime:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.hourglasstime:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.hourglasstime:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -6746,17 +6746,17 @@ public final class R {
         0x7f02007e, 0x7f02007f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:fontProviderAuthority
+     * @attr name com.hourglasstime:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6764,11 +6764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:fontProviderCerts
+     * @attr name com.hourglasstime:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6781,11 +6781,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:fontProviderFetchStrategy
+     * @attr name com.hourglasstime:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -6798,27 +6798,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:fontProviderFetchTimeout
+     * @attr name com.hourglasstime:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:fontProviderPackage
+     * @attr name com.hourglasstime:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:fontProviderQuery
+     * @attr name com.hourglasstime:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -6831,9 +6831,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.awesomeproject:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.awesomeproject:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.awesomeproject:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.hourglasstime:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.hourglasstime:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.hourglasstime:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -6885,7 +6885,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6893,11 +6893,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:font
+     * @attr name com.hourglasstime:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6910,16 +6910,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:fontStyle
+     * @attr name com.hourglasstime:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:fontWeight
+     * @attr name com.hourglasstime:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -6929,35 +6929,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.awesomeproject:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.awesomeproject:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.awesomeproject:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.awesomeproject:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.awesomeproject:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.awesomeproject:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.awesomeproject:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.awesomeproject:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.awesomeproject:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.awesomeproject:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.awesomeproject:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.awesomeproject:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.awesomeproject:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.awesomeproject:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.awesomeproject:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.awesomeproject:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.awesomeproject:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.awesomeproject:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.awesomeproject:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.awesomeproject:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.awesomeproject:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.awesomeproject:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.awesomeproject:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.awesomeproject:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.awesomeproject:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.awesomeproject:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.awesomeproject:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.awesomeproject:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.awesomeproject:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.hourglasstime:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.hourglasstime:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.hourglasstime:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.hourglasstime:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.hourglasstime:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.hourglasstime:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.hourglasstime:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.hourglasstime:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.hourglasstime:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.hourglasstime:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.hourglasstime:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.hourglasstime:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.hourglasstime:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.hourglasstime:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.hourglasstime:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.hourglasstime:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.hourglasstime:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.hourglasstime:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.hourglasstime:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.hourglasstime:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.hourglasstime:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.hourglasstime:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.hourglasstime:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.hourglasstime:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.hourglasstime:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.hourglasstime:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.hourglasstime:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.hourglasstime:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.hourglasstime:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #GenericDraweeHierarchy_actualImageScaleType
      * @see #GenericDraweeHierarchy_backgroundImage
@@ -7000,7 +7000,7 @@ public final class R {
         0x7f02011c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actualImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actualImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7021,11 +7021,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:actualImageScaleType
+     * @attr name com.hourglasstime:actualImageScaleType
      */
     public static final int GenericDraweeHierarchy_actualImageScaleType=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7033,20 +7033,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundImage
+     * @attr name com.hourglasstime:backgroundImage
      */
     public static final int GenericDraweeHierarchy_backgroundImage=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fadeDuration}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fadeDuration}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:fadeDuration
+     * @attr name com.hourglasstime:fadeDuration
      */
     public static final int GenericDraweeHierarchy_fadeDuration=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#failureImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#failureImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7054,11 +7054,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:failureImage
+     * @attr name com.hourglasstime:failureImage
      */
     public static final int GenericDraweeHierarchy_failureImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#failureImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#failureImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7079,11 +7079,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:failureImageScaleType
+     * @attr name com.hourglasstime:failureImageScaleType
      */
     public static final int GenericDraweeHierarchy_failureImageScaleType=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#overlayImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#overlayImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7091,11 +7091,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:overlayImage
+     * @attr name com.hourglasstime:overlayImage
      */
     public static final int GenericDraweeHierarchy_overlayImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#placeholderImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#placeholderImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7103,11 +7103,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:placeholderImage
+     * @attr name com.hourglasstime:placeholderImage
      */
     public static final int GenericDraweeHierarchy_placeholderImage=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#placeholderImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#placeholderImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7128,11 +7128,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:placeholderImageScaleType
+     * @attr name com.hourglasstime:placeholderImageScaleType
      */
     public static final int GenericDraweeHierarchy_placeholderImageScaleType=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#pressedStateOverlayImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#pressedStateOverlayImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7140,20 +7140,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:pressedStateOverlayImage
+     * @attr name com.hourglasstime:pressedStateOverlayImage
      */
     public static final int GenericDraweeHierarchy_pressedStateOverlayImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarAutoRotateInterval}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarAutoRotateInterval}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:progressBarAutoRotateInterval
+     * @attr name com.hourglasstime:progressBarAutoRotateInterval
      */
     public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7161,11 +7161,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:progressBarImage
+     * @attr name com.hourglasstime:progressBarImage
      */
     public static final int GenericDraweeHierarchy_progressBarImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7186,11 +7186,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:progressBarImageScaleType
+     * @attr name com.hourglasstime:progressBarImageScaleType
      */
     public static final int GenericDraweeHierarchy_progressBarImageScaleType=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#retryImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#retryImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7198,11 +7198,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:retryImage
+     * @attr name com.hourglasstime:retryImage
      */
     public static final int GenericDraweeHierarchy_retryImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#retryImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#retryImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7223,112 +7223,112 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:retryImageScaleType
+     * @attr name com.hourglasstime:retryImageScaleType
      */
     public static final int GenericDraweeHierarchy_retryImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundAsCircle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundAsCircle}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundAsCircle
+     * @attr name com.hourglasstime:roundAsCircle
      */
     public static final int GenericDraweeHierarchy_roundAsCircle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomEnd}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomEnd
+     * @attr name com.hourglasstime:roundBottomEnd
      */
     public static final int GenericDraweeHierarchy_roundBottomEnd=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomLeft}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomLeft
+     * @attr name com.hourglasstime:roundBottomLeft
      */
     public static final int GenericDraweeHierarchy_roundBottomLeft=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomRight}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomRight
+     * @attr name com.hourglasstime:roundBottomRight
      */
     public static final int GenericDraweeHierarchy_roundBottomRight=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomStart}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomStart
+     * @attr name com.hourglasstime:roundBottomStart
      */
     public static final int GenericDraweeHierarchy_roundBottomStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopEnd}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopEnd
+     * @attr name com.hourglasstime:roundTopEnd
      */
     public static final int GenericDraweeHierarchy_roundTopEnd=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopLeft}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopLeft
+     * @attr name com.hourglasstime:roundTopLeft
      */
     public static final int GenericDraweeHierarchy_roundTopLeft=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopRight}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopRight
+     * @attr name com.hourglasstime:roundTopRight
      */
     public static final int GenericDraweeHierarchy_roundTopRight=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopStart}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopStart
+     * @attr name com.hourglasstime:roundTopStart
      */
     public static final int GenericDraweeHierarchy_roundTopStart=22;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundWithOverlayColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundWithOverlayColor}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:roundWithOverlayColor
+     * @attr name com.hourglasstime:roundWithOverlayColor
      */
     public static final int GenericDraweeHierarchy_roundWithOverlayColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundedCornerRadius}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundedCornerRadius}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7337,22 +7337,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundedCornerRadius
+     * @attr name com.hourglasstime:roundedCornerRadius
      */
     public static final int GenericDraweeHierarchy_roundedCornerRadius=24;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderColor}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:roundingBorderColor
+     * @attr name com.hourglasstime:roundingBorderColor
      */
     public static final int GenericDraweeHierarchy_roundingBorderColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderPadding}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7361,11 +7361,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundingBorderPadding
+     * @attr name com.hourglasstime:roundingBorderPadding
      */
     public static final int GenericDraweeHierarchy_roundingBorderPadding=26;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderWidth}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderWidth}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7374,16 +7374,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundingBorderWidth
+     * @attr name com.hourglasstime:roundingBorderWidth
      */
     public static final int GenericDraweeHierarchy_roundingBorderWidth=27;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#viewAspectRatio}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#viewAspectRatio}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.awesomeproject:viewAspectRatio
+     * @attr name com.hourglasstime:viewAspectRatio
      */
     public static final int GenericDraweeHierarchy_viewAspectRatio=28;
     /**
@@ -7398,10 +7398,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.awesomeproject:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.awesomeproject:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.awesomeproject:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.awesomeproject:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.hourglasstime:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.hourglasstime:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.hourglasstime:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.hourglasstime:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -7493,7 +7493,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7501,11 +7501,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:divider
+     * @attr name com.hourglasstime:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7514,21 +7514,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:dividerPadding
+     * @attr name com.hourglasstime:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:measureWithLargestChild
+     * @attr name com.hourglasstime:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7543,7 +7543,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:showDividers
+     * @attr name com.hourglasstime:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -7815,16 +7815,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.awesomeproject:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.awesomeproject:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.awesomeproject:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.awesomeproject:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.awesomeproject:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.awesomeproject:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.awesomeproject:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.awesomeproject:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.awesomeproject:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.awesomeproject:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.hourglasstime:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.hourglasstime:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.hourglasstime:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.hourglasstime:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.hourglasstime:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.hourglasstime:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.hourglasstime:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.hourglasstime:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.hourglasstime:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.hourglasstime:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -8001,7 +8001,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8009,31 +8009,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actionLayout
+     * @attr name com.hourglasstime:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:actionProviderClass
+     * @attr name com.hourglasstime:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:actionViewClass
+     * @attr name com.hourglasstime:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8050,32 +8050,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:alphabeticModifiers
+     * @attr name com.hourglasstime:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:contentDescription
+     * @attr name com.hourglasstime:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:iconTint
+     * @attr name com.hourglasstime:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8092,11 +8092,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:iconTintMode
+     * @attr name com.hourglasstime:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8113,11 +8113,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:numericModifiers
+     * @attr name com.hourglasstime:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8133,17 +8133,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:showAsAction
+     * @attr name com.hourglasstime:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:tooltipText
+     * @attr name com.hourglasstime:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -8160,8 +8160,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.awesomeproject:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.awesomeproject:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.hourglasstime:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.hourglasstime:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -8266,17 +8266,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:preserveIconSpacing
+     * @attr name com.hourglasstime:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8284,7 +8284,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:subMenuArrow
+     * @attr name com.hourglasstime:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -8296,7 +8296,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.awesomeproject:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.hourglasstime:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -8333,13 +8333,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:overlapAnchor
+     * @attr name com.hourglasstime:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -8349,7 +8349,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.awesomeproject:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.hourglasstime:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -8357,13 +8357,13 @@ public final class R {
         0x7f0200e8
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:state_above_anchor
+     * @attr name com.hourglasstime:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -8373,8 +8373,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.awesomeproject:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.awesomeproject:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.hourglasstime:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.hourglasstime:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -8383,7 +8383,7 @@ public final class R {
         0x7f0200af, 0x7f0200b2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8392,11 +8392,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:paddingBottomNoButtons
+     * @attr name com.hourglasstime:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8405,7 +8405,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:paddingTopNoTitle
+     * @attr name com.hourglasstime:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -8419,19 +8419,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.awesomeproject:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.awesomeproject:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.awesomeproject:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.awesomeproject:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.awesomeproject:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.awesomeproject:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.awesomeproject:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.awesomeproject:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.awesomeproject:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.awesomeproject:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.awesomeproject:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.awesomeproject:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.awesomeproject:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.hourglasstime:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.hourglasstime:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.hourglasstime:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.hourglasstime:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.hourglasstime:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.hourglasstime:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.hourglasstime:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.hourglasstime:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.hourglasstime:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.hourglasstime:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.hourglasstime:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.hourglasstime:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.hourglasstime:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -8569,7 +8569,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8577,11 +8577,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:closeIcon
+     * @attr name com.hourglasstime:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8589,21 +8589,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:commitIcon
+     * @attr name com.hourglasstime:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:defaultQueryHint
+     * @attr name com.hourglasstime:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8611,21 +8611,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:goIcon
+     * @attr name com.hourglasstime:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:iconifiedByDefault
+     * @attr name com.hourglasstime:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8633,11 +8633,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:layout
+     * @attr name com.hourglasstime:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8645,21 +8645,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:queryBackground
+     * @attr name com.hourglasstime:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:queryHint
+     * @attr name com.hourglasstime:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8667,11 +8667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:searchHintIcon
+     * @attr name com.hourglasstime:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8679,11 +8679,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:searchIcon
+     * @attr name com.hourglasstime:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8691,11 +8691,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:submitBackground
+     * @attr name com.hourglasstime:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8703,11 +8703,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:suggestionRowLayout
+     * @attr name com.hourglasstime:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8715,7 +8715,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:voiceIcon
+     * @attr name com.hourglasstime:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -8725,37 +8725,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.awesomeproject:actualImageResource}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.awesomeproject:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.awesomeproject:actualImageUri}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.awesomeproject:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.awesomeproject:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.awesomeproject:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.awesomeproject:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.awesomeproject:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.awesomeproject:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.awesomeproject:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.awesomeproject:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.awesomeproject:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.awesomeproject:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.awesomeproject:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.awesomeproject:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.awesomeproject:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.awesomeproject:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.awesomeproject:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.awesomeproject:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.awesomeproject:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.awesomeproject:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.awesomeproject:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.awesomeproject:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.awesomeproject:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.awesomeproject:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.awesomeproject:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.awesomeproject:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.awesomeproject:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.awesomeproject:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.awesomeproject:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.awesomeproject:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.hourglasstime:actualImageResource}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.hourglasstime:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.hourglasstime:actualImageUri}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.hourglasstime:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.hourglasstime:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.hourglasstime:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.hourglasstime:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.hourglasstime:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.hourglasstime:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.hourglasstime:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.hourglasstime:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.hourglasstime:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.hourglasstime:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.hourglasstime:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.hourglasstime:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.hourglasstime:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.hourglasstime:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.hourglasstime:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.hourglasstime:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.hourglasstime:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.hourglasstime:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.hourglasstime:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.hourglasstime:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.hourglasstime:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.hourglasstime:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.hourglasstime:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.hourglasstime:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.hourglasstime:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.hourglasstime:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.hourglasstime:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.hourglasstime:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #SimpleDraweeView_actualImageResource
      * @see #SimpleDraweeView_actualImageScaleType
@@ -8800,7 +8800,7 @@ public final class R {
         0x7f0200d6, 0x7f0200d7, 0x7f02011c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actualImageResource}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actualImageResource}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8808,11 +8808,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:actualImageResource
+     * @attr name com.hourglasstime:actualImageResource
      */
     public static final int SimpleDraweeView_actualImageResource=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actualImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actualImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8833,21 +8833,21 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:actualImageScaleType
+     * @attr name com.hourglasstime:actualImageScaleType
      */
     public static final int SimpleDraweeView_actualImageScaleType=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#actualImageUri}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#actualImageUri}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:actualImageUri
+     * @attr name com.hourglasstime:actualImageUri
      */
     public static final int SimpleDraweeView_actualImageUri=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8855,20 +8855,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundImage
+     * @attr name com.hourglasstime:backgroundImage
      */
     public static final int SimpleDraweeView_backgroundImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fadeDuration}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fadeDuration}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:fadeDuration
+     * @attr name com.hourglasstime:fadeDuration
      */
     public static final int SimpleDraweeView_fadeDuration=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#failureImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#failureImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8876,11 +8876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:failureImage
+     * @attr name com.hourglasstime:failureImage
      */
     public static final int SimpleDraweeView_failureImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#failureImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#failureImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8901,11 +8901,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:failureImageScaleType
+     * @attr name com.hourglasstime:failureImageScaleType
      */
     public static final int SimpleDraweeView_failureImageScaleType=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#overlayImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#overlayImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8913,11 +8913,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:overlayImage
+     * @attr name com.hourglasstime:overlayImage
      */
     public static final int SimpleDraweeView_overlayImage=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#placeholderImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#placeholderImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8925,11 +8925,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:placeholderImage
+     * @attr name com.hourglasstime:placeholderImage
      */
     public static final int SimpleDraweeView_placeholderImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#placeholderImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#placeholderImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8950,11 +8950,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:placeholderImageScaleType
+     * @attr name com.hourglasstime:placeholderImageScaleType
      */
     public static final int SimpleDraweeView_placeholderImageScaleType=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#pressedStateOverlayImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#pressedStateOverlayImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8962,20 +8962,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:pressedStateOverlayImage
+     * @attr name com.hourglasstime:pressedStateOverlayImage
      */
     public static final int SimpleDraweeView_pressedStateOverlayImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarAutoRotateInterval}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarAutoRotateInterval}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.awesomeproject:progressBarAutoRotateInterval
+     * @attr name com.hourglasstime:progressBarAutoRotateInterval
      */
     public static final int SimpleDraweeView_progressBarAutoRotateInterval=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8983,11 +8983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:progressBarImage
+     * @attr name com.hourglasstime:progressBarImage
      */
     public static final int SimpleDraweeView_progressBarImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#progressBarImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#progressBarImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9008,11 +9008,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:progressBarImageScaleType
+     * @attr name com.hourglasstime:progressBarImageScaleType
      */
     public static final int SimpleDraweeView_progressBarImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#retryImage}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#retryImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9020,11 +9020,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:retryImage
+     * @attr name com.hourglasstime:retryImage
      */
     public static final int SimpleDraweeView_retryImage=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#retryImageScaleType}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#retryImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9045,112 +9045,112 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:retryImageScaleType
+     * @attr name com.hourglasstime:retryImageScaleType
      */
     public static final int SimpleDraweeView_retryImageScaleType=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundAsCircle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundAsCircle}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundAsCircle
+     * @attr name com.hourglasstime:roundAsCircle
      */
     public static final int SimpleDraweeView_roundAsCircle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomEnd}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomEnd
+     * @attr name com.hourglasstime:roundBottomEnd
      */
     public static final int SimpleDraweeView_roundBottomEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomLeft}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomLeft
+     * @attr name com.hourglasstime:roundBottomLeft
      */
     public static final int SimpleDraweeView_roundBottomLeft=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomRight}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomRight
+     * @attr name com.hourglasstime:roundBottomRight
      */
     public static final int SimpleDraweeView_roundBottomRight=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundBottomStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundBottomStart}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundBottomStart
+     * @attr name com.hourglasstime:roundBottomStart
      */
     public static final int SimpleDraweeView_roundBottomStart=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopEnd}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopEnd
+     * @attr name com.hourglasstime:roundTopEnd
      */
     public static final int SimpleDraweeView_roundTopEnd=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopLeft}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopLeft
+     * @attr name com.hourglasstime:roundTopLeft
      */
     public static final int SimpleDraweeView_roundTopLeft=22;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopRight}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopRight
+     * @attr name com.hourglasstime:roundTopRight
      */
     public static final int SimpleDraweeView_roundTopRight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundTopStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundTopStart}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:roundTopStart
+     * @attr name com.hourglasstime:roundTopStart
      */
     public static final int SimpleDraweeView_roundTopStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundWithOverlayColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundWithOverlayColor}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:roundWithOverlayColor
+     * @attr name com.hourglasstime:roundWithOverlayColor
      */
     public static final int SimpleDraweeView_roundWithOverlayColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundedCornerRadius}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundedCornerRadius}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9159,22 +9159,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundedCornerRadius
+     * @attr name com.hourglasstime:roundedCornerRadius
      */
     public static final int SimpleDraweeView_roundedCornerRadius=26;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderColor}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:roundingBorderColor
+     * @attr name com.hourglasstime:roundingBorderColor
      */
     public static final int SimpleDraweeView_roundingBorderColor=27;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderPadding}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9183,11 +9183,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundingBorderPadding
+     * @attr name com.hourglasstime:roundingBorderPadding
      */
     public static final int SimpleDraweeView_roundingBorderPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#roundingBorderWidth}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#roundingBorderWidth}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9196,16 +9196,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:roundingBorderWidth
+     * @attr name com.hourglasstime:roundingBorderWidth
      */
     public static final int SimpleDraweeView_roundingBorderWidth=29;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#viewAspectRatio}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#viewAspectRatio}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.awesomeproject:viewAspectRatio
+     * @attr name com.hourglasstime:viewAspectRatio
      */
     public static final int SimpleDraweeView_viewAspectRatio=30;
     /**
@@ -9219,7 +9219,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.awesomeproject:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.hourglasstime:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -9294,7 +9294,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9302,7 +9302,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:popupTheme
+     * @attr name com.hourglasstime:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -9315,17 +9315,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.awesomeproject:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.awesomeproject:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.awesomeproject:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.awesomeproject:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.awesomeproject:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.awesomeproject:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.awesomeproject:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.awesomeproject:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.awesomeproject:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.awesomeproject:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.awesomeproject:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.hourglasstime:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.hourglasstime:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.hourglasstime:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.hourglasstime:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.hourglasstime:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.hourglasstime:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.hourglasstime:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.hourglasstime:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.hourglasstime:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.hourglasstime:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.hourglasstime:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -9381,27 +9381,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:showText
+     * @attr name com.hourglasstime:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:splitTrack
+     * @attr name com.hourglasstime:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9410,11 +9410,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:switchMinWidth
+     * @attr name com.hourglasstime:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9423,11 +9423,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:switchPadding
+     * @attr name com.hourglasstime:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9435,11 +9435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:switchTextAppearance
+     * @attr name com.hourglasstime:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9448,22 +9448,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:thumbTextPadding
+     * @attr name com.hourglasstime:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:thumbTint
+     * @attr name com.hourglasstime:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9480,11 +9480,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:thumbTintMode
+     * @attr name com.hourglasstime:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9492,22 +9492,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:track
+     * @attr name com.hourglasstime:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:trackTint
+     * @attr name com.hourglasstime:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9524,7 +9524,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:trackTintMode
+     * @attr name com.hourglasstime:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -9545,8 +9545,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.awesomeproject:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.awesomeproject:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.hourglasstime:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.hourglasstime:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -9712,17 +9712,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:fontFamily
+     * @attr name com.hourglasstime:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9732,7 +9732,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.awesomeproject:textAllCaps
+     * @attr name com.hourglasstime:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -9744,33 +9744,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.awesomeproject:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.awesomeproject:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.awesomeproject:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.awesomeproject:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.awesomeproject:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.awesomeproject:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.awesomeproject:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.awesomeproject:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.awesomeproject:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.awesomeproject:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.awesomeproject:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.awesomeproject:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.awesomeproject:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.awesomeproject:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.awesomeproject:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.awesomeproject:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.awesomeproject:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.awesomeproject:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.awesomeproject:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.awesomeproject:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.awesomeproject:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.awesomeproject:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.awesomeproject:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.awesomeproject:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.awesomeproject:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.awesomeproject:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.awesomeproject:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.hourglasstime:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.hourglasstime:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.hourglasstime:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.hourglasstime:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.hourglasstime:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.hourglasstime:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.hourglasstime:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.hourglasstime:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.hourglasstime:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.hourglasstime:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.hourglasstime:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.hourglasstime:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.hourglasstime:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.hourglasstime:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.hourglasstime:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.hourglasstime:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.hourglasstime:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.hourglasstime:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.hourglasstime:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.hourglasstime:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.hourglasstime:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.hourglasstime:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.hourglasstime:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.hourglasstime:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.hourglasstime:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.hourglasstime:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.hourglasstime:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -9855,7 +9855,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9868,21 +9868,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:buttonGravity
+     * @attr name com.hourglasstime:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:collapseContentDescription
+     * @attr name com.hourglasstime:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9890,11 +9890,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:collapseIcon
+     * @attr name com.hourglasstime:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9903,11 +9903,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetEnd
+     * @attr name com.hourglasstime:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9916,11 +9916,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetEndWithActions
+     * @attr name com.hourglasstime:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9929,11 +9929,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetLeft
+     * @attr name com.hourglasstime:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9942,11 +9942,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetRight
+     * @attr name com.hourglasstime:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9955,11 +9955,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetStart
+     * @attr name com.hourglasstime:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9968,11 +9968,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:contentInsetStartWithNavigation
+     * @attr name com.hourglasstime:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9980,21 +9980,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:logo
+     * @attr name com.hourglasstime:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:logoDescription
+     * @attr name com.hourglasstime:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10003,21 +10003,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:maxButtonHeight
+     * @attr name com.hourglasstime:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:navigationContentDescription
+     * @attr name com.hourglasstime:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10025,11 +10025,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:navigationIcon
+     * @attr name com.hourglasstime:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10037,21 +10037,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:popupTheme
+     * @attr name com.hourglasstime:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:subtitle
+     * @attr name com.hourglasstime:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10059,32 +10059,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:subtitleTextAppearance
+     * @attr name com.hourglasstime:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:subtitleTextColor
+     * @attr name com.hourglasstime:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.awesomeproject:title
+     * @attr name com.hourglasstime:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10093,11 +10093,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMargin
+     * @attr name com.hourglasstime:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10106,11 +10106,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMarginBottom
+     * @attr name com.hourglasstime:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10119,11 +10119,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMarginEnd
+     * @attr name com.hourglasstime:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10132,11 +10132,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMarginStart
+     * @attr name com.hourglasstime:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10145,11 +10145,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMarginTop
+     * @attr name com.hourglasstime:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10158,11 +10158,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:titleMargins
+     * @attr name com.hourglasstime:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10170,18 +10170,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:titleTextAppearance
+     * @attr name com.hourglasstime:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:titleTextColor
+     * @attr name com.hourglasstime:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -10193,9 +10193,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.awesomeproject:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.awesomeproject:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.awesomeproject:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.hourglasstime:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.hourglasstime:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.hourglasstime:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -10238,7 +10238,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10247,11 +10247,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:paddingEnd
+     * @attr name com.hourglasstime:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10260,11 +10260,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.awesomeproject:paddingStart
+     * @attr name com.hourglasstime:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10272,7 +10272,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.awesomeproject:theme
+     * @attr name com.hourglasstime:theme
      */
     public static final int View_theme=4;
     /**
@@ -10283,8 +10283,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.awesomeproject:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.awesomeproject:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.hourglasstime:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.hourglasstime:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -10309,18 +10309,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.awesomeproject:backgroundTint
+     * @attr name com.hourglasstime:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.awesomeproject.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.hourglasstime.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10337,7 +10337,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.awesomeproject:backgroundTintMode
+     * @attr name com.hourglasstime:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

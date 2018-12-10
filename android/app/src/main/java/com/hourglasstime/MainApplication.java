@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.hourglasstime;
 
 import android.app.Application;
 
