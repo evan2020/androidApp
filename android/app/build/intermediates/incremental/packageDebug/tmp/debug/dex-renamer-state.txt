@@ -1,4 +1,4 @@
-#Mon Dec 10 20:08:02 CST 2018
-base.0=E\:\\github\\androidApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+#Mon Dec 10 21:39:36 CST 2018
+base.0=E\:\\github\\androidApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\51
 path.0=classes.dex
 renamed.0=classes.dex

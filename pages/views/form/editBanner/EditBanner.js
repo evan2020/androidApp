@@ -211,6 +211,15 @@ class TargetDate extends React.Component {
             targetDate: globalData.targetDate
         });
     }
+    // 补零函数
+    zero(value) {
+        let that = this;
+        if (value < 10) {
+            return "0" + value;
+        } else {
+            return value;
+        }
+    }
     openDate() {
         let that = this;
         try {
@@ -220,12 +229,24 @@ class TargetDate extends React.Component {
             }).then(({ year, month, day }) => {
                 if (action !== DatePickerAndroid.dismissedAction) {
                     // 这里开始可以处理用户选好的年月日三个参数：year, month (0-11), day
-                    console.log(year + "-" + (month + 1) + "-" + day);
+                    console.log(
+                        year + "-" + that.zero(month + 1) + "-" + that.zero(day)
+                    );
+                    let monthNum;
                     this.setState({
-                        targetDate: year + "-" + (month + 1) + "-" + day
+                        targetDate:
+                            year +
+                            "-" +
+                            that.zero(month + 1) +
+                            "-" +
+                            that.zero(day)
                     });
                     globalData.targetDate =
-                        year + "-" + (month + 1) + "-" + day;
+                        year +
+                        "-" +
+                        that.zero(month + 1) +
+                        "-" +
+                        that.zero(day);
                 }
             });
         } catch ({ code, message }) {

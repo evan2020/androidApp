@@ -53,7 +53,7 @@ const AppNavigator = createStackNavigator(
         ShowBtn: ShowBtn
     },
     {
-        initialRouteName: "IndexCom" // 默认初始页为home组件
+        initialRouteName: "AddBanner" // 默认初始页为home组件
     }
 );
 

@@ -125,6 +125,7 @@ export class IndexCom extends React.Component {
             console.log(`请求结果 >>>>>>>>>>>>>`, res);
             let cardListData = res.data.map((item, index) => {
                 let IntervalTime = Timer.timeStamp(item.targetDate);
+                // Alert.alert(item.targetDate + ``);
                 let date = new Date(item.targetDate);
                 let timeStamp = date.getTime();
                 let week = date.getDay();
@@ -134,7 +135,8 @@ export class IndexCom extends React.Component {
                 if (week !== nowDay && nowTimeStamp < timeStamp) {
                     IntervalTime += 1;
                 }
-                console.log(timeStamp);
+                // Alert.alert(IntervalTime + ``);
+                console.log(timeStamp, IntervalTime.toString());
                 let itemOne = {
                     timeStamp: timeStamp, // 时间戳
                     id: item.id, // 卡片id
@@ -145,9 +147,11 @@ export class IndexCom extends React.Component {
             });
             cardListData.sort(Timer.sortBy("timeStamp"));
             console.log(`cardListData >>>>>>>>>`, cardListData);
-            that.setState({
-                listData: cardListData
-            });
+            setTimeout(() => {
+                that.setState({
+                    listData: cardListData
+                });
+            }, 30);
         });
     }
 
@@ -215,7 +219,7 @@ class ListOne extends React.Component {
                     <View style={styles.listOneRight}>
                         <View style={styles.listOneRightDate}>
                             <Text style={styles.listOneRightDateText}>
-                                {this.props.listOneData.IntervalTime.toString()}
+                                {this.props.listOneData.IntervalTime}
                             </Text>
                         </View>
                         <View style={styles.listOneRightUnit}>
