@@ -71,13 +71,10 @@ class AvatarCom extends React.Component {
                 >
                     <Image
                         style={styles.avatarImg}
-                        source={{
-                            uri:
-                                "https://file.smallzhiyun.com/001ec949c8d6138ec9a261_%E5%89%AF%E6%9C%AC.jpg"
-                        }}
+                        source={require("../../static/images/mine/clock192.png")}
                     />
                 </TouchableOpacity>
-                <Text style={styles.userName}>大师兄</Text>
+                <Text style={styles.userName}>沙漏</Text>
             </View>
         );
     }
@@ -195,7 +192,7 @@ const styles = StyleSheet.create({
     avatarImg: {
         width: 100,
         height: 100,
-        borderRadius: 50,
+        // borderRadius: 50,
         marginTop: 15
     },
     userName: {

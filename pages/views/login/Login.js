@@ -11,8 +11,12 @@ import {
     TextInput,
     Image,
     AsyncStorage,
-    DeviceEventEmitter
+    DeviceEventEmitter,
+    Alert,
+    ActivityIndicator
 } from "react-native";
+
+import * as Reg from "../../utils/reg";
 
 // 存储服务
 AV = require("leancloud-storage");
@@ -43,6 +47,8 @@ export class Login extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            isLinkToReg: false, // 点击跳转注册按钮连续事件开关
+            isLogin: false, // 点击登录连续事件开关
             openId: ``,
             userName: ``,
             password: ``
@@ -53,36 +59,90 @@ export class Login extends React.Component {
 
     componentDidMount() {
         console.log(`登录页面开始挂载 >>>>>>>>>>>>>`);
-        AV.init(
-            "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
-            "jci4BNtk6BTBJyhUGWk9qyci"
-        );
+        try {
+            AV.init(
+                "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
+                "jci4BNtk6BTBJyhUGWk9qyci"
+            );
+        } catch (error) {
+            console.log(`初始化error >>>>>>>>`, error);
+        }
     }
 
     componentWillUnmount() {
         console.log(`登录页面离开 >>>>>>>>>>>>>`);
     }
 
+    // 注册正则校验
+    reg() {
+        let that = this;
+        return new Promise((resolve, reject) => {
+            if (this.state.userName === ``) {
+                Alert.alert(`用户名不能为空`);
+            } else if (this.state.password === ``) {
+                Alert.alert(`密码不能为空`);
+            } else {
+                if (!Reg.passwordReg.test(this.state.password)) {
+                    Alert.alert(`请输入6到20位数字和英文字母`);
+                } else {
+                    resolve();
+                }
+            }
+        });
+    }
+
     login() {
         let that = this;
-        console.log(`login`, that.state);
-        AV.User.logIn(that.state.userName + ``, that.state.password + ``).then(
-            async function(loggedInUser) {
-                console.log(`登录成功 >>>>>>>`, loggedInUser);
-                try {
-                    await AsyncStorage.setItem("openId", loggedInUser.id);
-                    console.log(`保存成功 >>>>>>>>>>`);
-                    DeviceEventEmitter.emit("getOpenId", loggedInUser.id);
-                } catch (error) {
-                    // Error saving data
-                    console.log(`保存失败`, error);
-                }
-                // 导航到注册页面
-                navigation.push("IndexCom");
+        if (that.state.isLogin) {
+            console.log(`请等待1s后再次点击 >>>>>>>>>>`);
+            return false;
+        }
+        that.setState(
+            {
+                isLogin: true
             },
-            function(error) {
-                console.log(`登录失败 >>>>>>>`, error);
-                alert.alert(`登录失败`);
+            () => {
+                setTimeout(() => {
+                    that.setState({
+                        isLogin: false
+                    });
+                }, 1000);
+                console.log(`login`, that.state);
+                that.reg().then(
+                    () => {
+                        AV.User.logIn(
+                            that.state.userName + ``,
+                            that.state.password + ``
+                        ).then(
+                            async function(loggedInUser) {
+                                console.log(`登录成功 >>>>>>>`, loggedInUser);
+                                try {
+                                    await AsyncStorage.setItem(
+                                        "openId",
+                                        loggedInUser.id
+                                    );
+                                    console.log(`保存成功 >>>>>>>>>>`);
+                                    DeviceEventEmitter.emit(
+                                        "getOpenId",
+                                        loggedInUser.id
+                                    );
+                                    // 导航到注册页面
+                                    navigation.push("IndexCom");
+                                } catch (error) {
+                                    // Error saving data
+                                    console.log(`保存失败`, error);
+                                }
+                            },
+                            function(error) {
+                                console.log(`登录失败 >>>>>>>`, error);
+                                Alert.alert(`登录失败${error}`);
+                            }
+                        );
+                    },
+                    () => {
+                        Alert.alert(`未知错误`);
+                    }
+                );
             }
         );
     }
@@ -133,8 +193,27 @@ export class Login extends React.Component {
                     <Button
                         style={{ width: "100%" }}
                         onPress={() => {
-                            // 导航到注册页面
-                            navigation.push("Register");
+                            let that = this;
+                            if (that.state.isLinkToReg) {
+                                console.log(
+                                    `请等待1s后再次操作 >>>>>>>>>>>>>>`
+                                );
+                                return false;
+                            }
+                            that.setState(
+                                {
+                                    isLinkToReg: true
+                                },
+                                () => {
+                                    setTimeout(() => {
+                                        that.setState({
+                                            isLinkToReg: false
+                                        });
+                                    }, 1000);
+                                    // 导航到注册页面
+                                    navigation.push("Register");
+                                }
+                            );
                         }}
                         title="跳转注册"
                         accessibilityLabel="login"
