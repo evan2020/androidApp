@@ -2,7 +2,7 @@
 // let baseUrl = `http://192.168.0.104:8089/shalou/`
 
 // 正式环境
-let baseUrl = `https://shield.smallzhiyun.com/shalou/`;
+let baseUrl = `https://serverJavaMysql.smallzhiyun.com/shalou/`;
 
 // 添加卡片
 export let addCard = `${baseUrl}timer/addCard`;
