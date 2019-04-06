@@ -9,8 +9,13 @@ import {
     Button,
     Image,
     FlatList,
-    AsyncStorage
+    AsyncStorage,
+    Alert
 } from "react-native";
+
+// 引入微信登录和支付
+import * as WeChat from "react-native-wechat";
+WeChat.registerApp("wx6c2f0edac4fdab22");
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
@@ -56,6 +61,31 @@ export class ShowBtn extends React.Component {
         }
     }
 
+    async wechatLogin() {
+        try {
+            let isInstall = await WeChat.isWXAppInstalled();
+            if (!isInstall) {
+                throw new Error(`微信未安装`);
+            }
+            let result = await WeChat.sendAuthRequest(`snsapi_userinfo`);
+            Alert.alert(`微信登录结果 >>>${JSON.stringify(result)}`);
+        } catch (error) {
+            Alert.alert(`微信登录失败 >>>${JSON.stringify(error)}`);
+        }
+    }
+
+    async wechatShareText() {
+        try {
+            let result = await WeChat.shareToTimeline({
+                type: `text`,
+                description: `微信分享文字`
+            });
+            Alert.alert(`微信分享结果 >>>${JSON.stringify(result)}`);
+        } catch (error) {
+            Alert.alert(`微信分享失败 >>>${JSON.stringify(error)}`);
+        }
+    }
+
     render() {
         return (
             <View style={styles.ShowBtn}>
@@ -88,6 +118,26 @@ export class ShowBtn extends React.Component {
                             this.removeOpenId();
                         }}
                         title="退出"
+                        color="#E89080"
+                        accessibilityLabel="Learn more about this purple button"
+                    />
+                </View>
+                <View style={{ width: "70%", marginBottom: 0 }}>
+                    <Button
+                        onPress={() => {
+                            this.wechatLogin();
+                        }}
+                        title="微信登录"
+                        color="#E89080"
+                        accessibilityLabel="Learn more about this purple button"
+                    />
+                </View>
+                <View style={{ width: "70%", marginBottom: 0 }}>
+                    <Button
+                        onPress={() => {
+                            this.wechatShareText();
+                        }}
+                        title="微信分享"
                         color="#E89080"
                         accessibilityLabel="Learn more about this purple button"
                     />

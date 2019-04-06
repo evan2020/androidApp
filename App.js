@@ -23,6 +23,10 @@ import { Register } from "./pages/views/register/Register";
 // 引入按钮页面
 import { ShowBtn } from "./pages/views/other/showBtn/ShowBtn";
 
+// // 引入微信登录和支付
+// import * as WeChat from 'react-native-wechat';
+// WeChat.registerApp('wx6c2f0edac4fdab22');
+
 // 平台类型
 const instructions = Platform.select({
     ios: `这是IOS >>>>>>>>>>`,
