@@ -80,8 +80,10 @@ export class ShowBtn extends React.Component {
                 type: `text`,
                 description: `微信分享文字`
             });
+            console.log(`微信分享结果 >>>${result}`)
             Alert.alert(`微信分享结果 >>>${JSON.stringify(result)}`);
         } catch (error) {
+            console.log(`微信分享失败 >>>${error}`)
             Alert.alert(`微信分享失败 >>>${JSON.stringify(error)}`);
         }
     }
