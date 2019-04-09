@@ -51,10 +51,10 @@ export const http = function ({
                 resolve(response.data);
             }
         }, (error) => {
-            console.log(`error >>>>>>>>>>>>`)
+            console.log(`error >>>>>>>>>>>>`,error)
             reject(error);
         }).catch((error) => {
-            console.log(`error >>>>>>>>>>>>`)
+            console.log(`error >>>>>>>>>>>>`,error)
             reject(error);
         });
     })

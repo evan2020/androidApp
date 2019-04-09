@@ -15,3 +15,6 @@ export let editCard = `${baseUrl}timer/editCard`;
 
 // 删除卡片
 export let delCard = `${baseUrl}timer/delCard`;
+
+// 微信通过code获取access_token
+export let getAccessToken = `https://api.weixin.qq.com/sns/oauth2/access_token`;

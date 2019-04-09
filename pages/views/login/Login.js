@@ -18,6 +18,8 @@ import {
 
 import * as Reg from "../../utils/reg";
 
+import * as Key from "../../config/key";
+
 // 存储服务
 AV = require("leancloud-storage");
 let { Query, User } = AV;
@@ -60,10 +62,7 @@ export class Login extends React.Component {
     componentDidMount() {
         console.log(`登录页面开始挂载 >>>>>>>>>>>>>`);
         try {
-            AV.init(
-                "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
-                "jci4BNtk6BTBJyhUGWk9qyci"
-            );
+            AV.init(Key.lcAppID, Key.lcAppKey);
         } catch (error) {
             console.log(`初始化error >>>>>>>>`, error);
         }

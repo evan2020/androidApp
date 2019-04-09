@@ -33,15 +33,6 @@ const instructions = Platform.select({
     android: `这是安卓 >>>>>>>>>>`
 });
 
-// // 存储服务
-// global.AV = require("leancloud-storage");
-// let { Query, User } = global.AV;
-// global.Query=Query
-// global.User=User
-// global.AV.init(
-//     "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
-//     "jci4BNtk6BTBJyhUGWk9qyci"
-// );
 
 // 路由设置
 const AppNavigator = createStackNavigator(

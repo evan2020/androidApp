@@ -23,6 +23,8 @@ import * as Reg from "../../utils/reg";
 AV = require("leancloud-storage");
 let { Query, User } = AV;
 
+import * as Key from "../../config/key";
+
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
 
@@ -59,11 +61,9 @@ export class Register extends React.Component {
 
     componentDidMount() {
         console.log(`注册页面开始挂载 >>>>>>>>>>>>>`);
+        console.log(`Key.lcAppID, Key.lcAppKey`, Key.lcAppID, Key.lcAppKey);
         try {
-            AV.init(
-                "GE6fChi0RfeFqDSniofwlSSj-gzGzoHsz",
-                "jci4BNtk6BTBJyhUGWk9qyci"
-            );
+            AV.init(Key.lcAppID, Key.lcAppKey);
         } catch (error) {
             console.log(`初始化error >>>>>>>>`, error);
         }

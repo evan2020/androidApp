@@ -1,5 +1,8 @@
 // 引入react
 import React, { Component } from "react";
+
+import { http } from "../../../http/index";
+import * as API from "../../../http/index";
 // 引入组件
 import {
     Platform,
@@ -9,6 +12,7 @@ import {
     Button,
     Image,
     FlatList,
+    DeviceEventEmitter,
     AsyncStorage,
     Alert
 } from "react-native";
@@ -16,6 +20,12 @@ import {
 // 引入微信登录和支付
 import * as WeChat from "react-native-wechat";
 WeChat.registerApp("wx6c2f0edac4fdab22");
+
+import * as Key from "../../../config/key";
+
+// 存储服务
+AV = require("leancloud-storage");
+let { Query, User } = AV;
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
@@ -62,15 +72,17 @@ export class ShowBtn extends React.Component {
     }
 
     async wechatLogin() {
+        console.log(`开始微信登录 >>>>>>>>>>`);
         try {
             let isInstall = await WeChat.isWXAppInstalled();
             if (!isInstall) {
                 throw new Error(`微信未安装`);
             }
             let result = await WeChat.sendAuthRequest(`snsapi_userinfo`);
-            Alert.alert(`微信登录结果 >>>${JSON.stringify(result)}`);
+            console.log(`微信登录结果 >>>${JSON.stringify(result)}`);
+            this.getAccessToken(result);
         } catch (error) {
-            Alert.alert(`微信登录失败 >>>${JSON.stringify(error)}`);
+            console.log(`微信登录失败 >>>${JSON.stringify(error)}`);
         }
     }
 
@@ -80,11 +92,83 @@ export class ShowBtn extends React.Component {
                 type: `text`,
                 description: `微信分享文字`
             });
-            console.log(`微信分享结果 >>>${result}`)
+            console.log(`微信分享结果 >>>${result}`);
             Alert.alert(`微信分享结果 >>>${JSON.stringify(result)}`);
         } catch (error) {
-            console.log(`微信分享失败 >>>${error}`)
+            console.log(`微信分享失败 >>>${error}`);
             Alert.alert(`微信分享失败 >>>${JSON.stringify(error)}`);
+        }
+    }
+    test() {
+        console.log(`test`);
+    }
+
+    getAccessToken(result) {
+        let that = this;
+        console.log(`开始获取微信token >>>>>>`, result);
+        return new Promise((resolve, reject) => {
+            http({
+                method: "get",
+                url: `https://api.weixin.qq.com/sns/oauth2/access_token`,
+                params: {
+                    appid: Key.wxAppId,
+                    secret: Key.wxSecret,
+                    code: result.code,
+                    grant_type: `authorization_code`
+                },
+                customErr: true
+            }).then(res => {
+                console.log(`请求结果 >>>>>>>>>>>>>`, res);
+                that.leanCouldLogin(res);
+            });
+        });
+    }
+    // leanclould的第三方登录
+    leanCouldLogin(res) {
+        let that = this;
+        console.log(`开始微信第三方登录 >>>>>>>>> res`, res);
+        let authData = res;
+        console.log(`开始微信第三方登录 >>>>>>>>> authData`, authData);
+        try {
+            AV.init(Key.lcAppID, Key.lcAppKey);
+            AV.User.loginWithAuthData(authData, "weixin").then(
+                function(loggedInUser) {
+                    //登录成功
+                    console.log(`微信第三方登录成功 >>>>>>>>>>`, loggedInUser);
+                    that.linkToLogin(loggedInUser);
+                },
+                function(error) {
+                    // 登录失败
+                    console.log(`微信第三方登录失败 >>>>>>>>>>`, error);
+                }
+            );
+        } catch (error) {
+            console.log(`初始化error >>>>>>>>`, error);
+            AV.User.loginWithAuthData(authData, "weixin").then(
+                function(loggedInUser) {
+                    //登录成功
+                    console.log(`微信第三方登录成功 >>>>>>>>>>`, loggedInUser);
+                    that.linkToLogin(loggedInUser);
+                },
+                function(error) {
+                    // 登录失败
+                    console.log(`微信第三方登录失败 >>>>>>>>>>`, error);
+                }
+            );
+        }
+    }
+    async linkToLogin(loggedInUser) {
+        //登录成功
+        console.log(`登录成功跳转 >>>>>>>>>>`, loggedInUser);
+        try {
+            await AsyncStorage.setItem("openId", loggedInUser.id);
+            console.log(`保存成功 >>>>>>>>>>`);
+            DeviceEventEmitter.emit("getOpenId", loggedInUser.id);
+            // 导航到注册页面
+            navigation.push("IndexCom");
+        } catch (error) {
+            // Error saving data
+            console.log(`保存失败`, error);
         }
     }
 
