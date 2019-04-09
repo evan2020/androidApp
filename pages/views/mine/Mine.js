@@ -11,13 +11,25 @@ import {
     FlatList,
     Alert,
     TouchableOpacity,
-    Linking
+    Linking,
+    AsyncStorage
 } from "react-native";
 // 引入tabbar组件
 import { TabBarCom } from "../components/tabbar/TabBar";
 
 // 当前页面全局变量(为了设置导航)
 let navigation = null;
+
+// 用户
+let currentUser = 1;
+
+import * as Key from "../../config/key";
+
+// 存储服务
+AV = require("leancloud-storage");
+let { Query, User } = AV;
+
+let isLogin = false;
 
 // 我的页面主体
 export class MineCom extends React.Component {
@@ -35,13 +47,66 @@ export class MineCom extends React.Component {
     };
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            isLogin: false
+        };
         // 获取导航
         navigation = this.props.navigation;
+    }
+    componentDidMount() {
+        this.getUserInfo();
+    }
+    async getUserInfo() {
+        console.log(`开始获取用户信息和状态`);
+        try {
+            const value = await AsyncStorage.getItem("openId");
+            if (value !== null) {
+                // We have data!!
+                console.log(`获取到openID >>>>>>>>>>>`, value);
+                this.setState(previousState => {
+                    return { isLogin: true };
+                });
+
+                console.log(`isLogin >>>`, isLogin);
+            } else {
+                this.setState(previousState => {
+                    return { isLogin: false };
+                });
+            }
+        } catch (error) {
+            // Error retrieving data
+            console.log(`error >>>>>>>`, error);
+        }
+    }
+    async removeOpenId() {
+        console.log(`移除ID`);
+        try {
+            await AsyncStorage.removeItem("openId", () => {
+                // 导航到注册页面
+                navigation.push("Login");
+            });
+        } catch (error) {
+            // Error saving data
+        }
     }
     render() {
         return (
             <View style={styles.mineCom}>
+                <TouchableOpacity
+                    onPress={() => {
+                        console.log(`点击头像`);
+                        this.removeOpenId();
+                    }}
+                    style={styles.exitIconCom}
+                >
+                    <Image
+                        style={
+                            this.state.isLogin ? styles.exitIcon : styles.hide
+                        }
+                        source={require("../../static/images/mine/exit.png")}
+                    />
+                </TouchableOpacity>
+
                 {/* 头像和姓名区域 */}
                 <AvatarCom />
                 {/* 导航区域 */}
@@ -59,22 +124,40 @@ class AvatarCom extends React.Component {
         super(props);
         this.state = {};
     }
+    async getUserInfo() {
+        console.log(`开始获取用户信息和状态`);
+        try {
+            const value = await AsyncStorage.getItem("openId");
+            if (value !== null) {
+                // We have data!!
+                console.log(`获取到openID >>>>>>>>>>>`, value);
+                isLogin = true;
+                console.log(`isLogin >>>`, isLogin);
+            } else {
+                isLogin = false;
+                navigation.navigate("Login");
+            }
+        } catch (error) {
+            // Error retrieving data
+            console.log(`error >>>>>>>`, error);
+            navigation.navigate("Login");
+        }
+    }
     render() {
         return (
             <View style={styles.avatarCom}>
                 <TouchableOpacity
                     onPress={() => {
                         console.log(`点击头像`);
-                        // ShowBtn
-                        navigation.navigate("ShowBtn");
+                        this.getUserInfo();
                     }}
                 >
                     <Image
                         style={styles.avatarImg}
-                        source={require("../../static/images/mine/clock192.png")}
+                        source={require("../../static/images/mine/timg.jpg")}
                     />
                 </TouchableOpacity>
-                <Text style={styles.userName}>沙漏</Text>
+                <Text style={styles.userName}>沙漏的时光</Text>
             </View>
         );
     }
@@ -89,24 +172,24 @@ class Navigation extends React.Component {
                 {
                     leftIconUrl: require("../../static/images/mine/mine.png"),
                     centerTitle: `关于我们`,
-                    arrowRight: require("../../static/images/mine/right.png"),
+                    arrowRight: require("../../static/images/mine/ARROW.png"),
                     webSiteUrl: `https://shalou.smallzhiyun.com/timer/aboutUs.html`
                 },
                 {
                     leftIconUrl: require("../../static/images/mine/help.png"),
                     centerTitle: `帮助中心`,
-                    arrowRight: require("../../static/images/mine/right.png"),
+                    arrowRight: require("../../static/images/mine/ARROW.png"),
                     webSiteUrl: `https://shalou.smallzhiyun.com/timer/helpCenter.html`
                 },
                 {
                     leftIconUrl: require("../../static/images/mine/contat.png"),
                     centerTitle: `联系客服`,
-                    arrowRight: require("../../static/images/mine/right.png")
+                    arrowRight: require("../../static/images/mine/ARROW.png")
                 },
                 {
                     leftIconUrl: require("../../static/images/mine/feedback.png"),
                     centerTitle: `提交反馈`,
-                    arrowRight: require("../../static/images/mine/right.png"),
+                    arrowRight: require("../../static/images/mine/ARROW.png"),
                     webSiteUrl: `http://dsx201601.mikecrm.com/pr7Ye5o`
                 }
             ]
@@ -176,9 +259,24 @@ class NavOne extends React.Component {
 
 // 定义样式
 const styles = StyleSheet.create({
+    hide: {
+        display: `none`
+    },
+    exitIconCom: {
+        // backgroundColor:`pink`,
+        position: `absolute`,
+        zIndex: 9999,
+        right: 20,
+        top: 20
+    },
+    exitIcon: {
+        width: 30,
+        height: 30
+    },
     mineCom: {
         flex: 1,
-        alignItems: "center"
+        alignItems: "center",
+        position: `relative`
     },
     avatarCom: {
         width: "100%",
@@ -192,11 +290,12 @@ const styles = StyleSheet.create({
     avatarImg: {
         width: 100,
         height: 100,
-        // borderRadius: 50,
+        borderRadius: 50,
         marginTop: 15
     },
     userName: {
-        marginTop: 10
+        marginTop: 20,
+        fontSize: 16
     },
     navigation: {
         width: "95%",
@@ -205,10 +304,10 @@ const styles = StyleSheet.create({
         marginTop: 50,
         paddingLeft: 5,
         paddingRight: 5,
-        borderLeftWidth: 1,
-        borderLeftColor: "#eee",
-        borderRightWidth: 1,
-        borderRightColor: "#eee",
+        // borderLeftWidth: 1,
+        // borderLeftColor: "#eee",
+        // borderRightWidth: 1,
+        // borderRightColor: "#eee",
         borderBottomWidth: 1,
         borderBottomColor: "#eee"
     },
@@ -225,13 +324,13 @@ const styles = StyleSheet.create({
         borderTopColor: "#eee"
     },
     leftIcon: {
-        width: 30,
-        height: 30
+        width: 20,
+        height: 20
     },
     centerTitle: {
         position: "absolute",
-        left: 50,
-        fontSize: 20,
+        left: 30,
+        fontSize: 16,
         color: "#666"
     },
     arrowRight: {

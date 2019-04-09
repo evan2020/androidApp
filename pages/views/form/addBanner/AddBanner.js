@@ -228,7 +228,7 @@ class TargetDate extends React.Component {
                 {/* 左侧图标 */}
                 <Image
                     style={styles.leftIcon}
-                    source={require("../../../static/images/mine/mine.png")}
+                    source={require("../../../static/images/mine/date.png")}
                 />
                 <Text
                     style={styles.TargetDateText}
@@ -263,13 +263,13 @@ const styles = StyleSheet.create({
         position: "relative"
     },
     leftIcon: {
-        width: 30,
-        height: 30
+        width: 20,
+        height: 20
     },
     centerTitle: {
         width: "70%",
         position: "absolute",
-        left: 50,
+        left: 35,
         fontSize: 20,
         color: "#666",
         borderWidth: 1,
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
     TargetDateText: {
         width: "70%",
         position: "absolute",
-        left: 50,
+        left: 35,
         fontSize: 20,
         color: "#666"
     },

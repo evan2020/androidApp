@@ -6,6 +6,13 @@ const VERSION = '1.0.0';
 // axios.defaults.baseURL = '/api';
 // axios.defaults.headers.common['version'] = VERSION;
 
+// 引入组件
+import {
+    ActivityIndicator
+} from "react-native";
+
+let hidesWhenStopped=false
+
 // request拦截器
 axios
     .interceptors
