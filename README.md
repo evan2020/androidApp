@@ -5,6 +5,8 @@
 
 一个倒计时时间管理工具
 
+![沙漏](https://file.smallzhiyun.com/Snipaste_2019-04-16_14-05-51.png)
+
 ##### ➢ 下载
 
 `Google Play`
