@@ -208,7 +208,7 @@ export class ShowBtn extends React.Component {
                         accessibilityLabel="Learn more about this purple button"
                     />
                 </View>
-                {/* <View style={{ width: "70%", marginBottom: 0 }}>
+                <View style={{ width: "70%", marginTop: 30 }}>
                     <Button
                         onPress={() => {
                             this.wechatLogin();
@@ -218,7 +218,7 @@ export class ShowBtn extends React.Component {
                         accessibilityLabel="Learn more about this purple button"
                     />
                 </View>
-                <View style={{ width: "70%", marginBottom: 0 }}>
+                {/* <View style={{ width: "70%", marginBottom: 0 }}>
                     <Button
                         onPress={() => {
                             this.wechatShareText();

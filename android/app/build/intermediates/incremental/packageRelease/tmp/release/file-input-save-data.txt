@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 09 14:09:25 CST 2019
+#Sat May 18 21:28:38 CST 2019
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libglog.so
 25.base=E\:\\github\\androidApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0

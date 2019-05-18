@@ -84,6 +84,7 @@ export class MineCom extends React.Component {
             await AsyncStorage.removeItem("openId", () => {
                 // 导航到注册页面
                 navigation.push("Login");
+                // navigation.push("ShowBtn");
             });
         } catch (error) {
             // Error saving data
@@ -135,12 +136,14 @@ class AvatarCom extends React.Component {
                 console.log(`isLogin >>>`, isLogin);
             } else {
                 isLogin = false;
-                navigation.navigate("Login");
+                // navigation.navigate("Login");
+                navigation.navigate("ShowBtn");
             }
         } catch (error) {
             // Error retrieving data
             console.log(`error >>>>>>>`, error);
-            navigation.navigate("Login");
+            // navigation.navigate("Login");
+            navigation.navigate("ShowBtn");
         }
     }
     render() {
